@@ -1,0 +1,27 @@
+{
+	"version": 1,
+	"type": "panorama",
+	"external": {
+		"js": [
+			"3rdparty/lottie/lottie.min.js"
+		],
+		"css": [
+			"https://fonts.googleapis.com/css2?family=Hepta+Slab:wght@500&display=swap",
+			"https://fonts.googleapis.com/css2?family=Karla:wght@300;700&display=swap"
+		]
+	},
+	"skin": {
+		"js": "skin.js"
+	},
+	"vrskin": {},
+	"player": {
+		"js": "pano2vr_player.js"
+	},
+	"creationdate": "2022-09-14T09:38:30.282Z",
+	"configuration": "pano.xml",
+	"preview": {
+		"img": "preview.jpg",
+		"width": 640,
+		"height": 480
+	}
+}
