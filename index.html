@@ -2,7 +2,6 @@
 <html>
 	<head>
 		<meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
-		<meta http-equiv="X-UA-Compatible" content="IE=edge" /> 
 		<title></title>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0" />
 		<meta name="apple-mobile-web-app-capable" content="yes" />
@@ -17,29 +16,31 @@
 			body {
 				height:100%;
 				margin: 0px;
+				background: black;
+				color: white;
 				overflow:hidden; /* disable scrollbars */
 				-webkit-tap-highlight-color: rgba(0, 0, 0, 0); /* remove highlight on tab for iOS/Android */
 			}
-			/* fix for scroll bars on webkit & >=Mac OS X Lion */ 
+			/* fix for scroll bars on webkit & >=Mac OS X Lion */
 			::-webkit-scrollbar {
 				background-color: rgba(0,0,0,0.5);
 				width: 0.75em;
 				height: 0.75em;
 			}
 			::-webkit-scrollbar-thumb {
-    			background-color:  rgba(255,255,255,0.5);
+				background-color:  rgba(255,255,255,0.5);
 			}
-		</style>	
+		</style>
 	</head>
 	<body>
 <!-- - - - - - - 8<- - - - - - cut here - - - - - 8<- - - - - - - -->
-		<script type="text/javascript" src="pano2vr_player.js">
+		<script type="text/javascript" src="pano2vr_player.js?ts=98279650">
 		</script>
-		<script type="text/javascript" src="skin.js">
+		<script type="text/javascript" src="skin.js?ts=98279650">
 		</script>
-		<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Hepta+Slab:wght@500&display=swap"/>
-		<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Karla:wght@300;700&display=swap"/>
 		<script src="3rdparty/lottie/lottie.min.js"></script>
+		<script src="webxr/three.min.js"></script>
+		<script src="webxr/webxr-polyfill.min.js"></script>
 		<div id="container" style="width:100%;height:100%;overflow:hidden;">
 		<br>Loading...<br><br>
 		</div>
@@ -74,28 +75,27 @@
 			window.onhashchange = function () {
 				parseParams(window.location.hash, params);
 				pano.openNext('{' + params.startNode + '}', params.startView);
-         	}
-	    } else {
-        	var lastHash = window.location.hash;
-        	window.setInterval(function () {
-	           	if (window.location.hash != lastHash) {
-   	        		lastHash = window.location.hash;
+			}
+		} else {
+			var lastHash = window.location.hash;
+			window.setInterval(function () {
+				if (window.location.hash != lastHash) {
+					lastHash = window.location.hash;
 					parseParams(window.location.hash, params);
 					pano.openNext('{' + params.startNode + '}', params.startView);
-        	   	}
-        	}, 100);
+				}
+			}, 100);
 		}
-	
 			// create the panorama player with the container
 			pano=new pano2vrPlayer("container");
 			pano.startNode = startNode;
 			pano.startView = startView;
+			pano.setQueryParameter("ts=98279650")
 			// add the skin object
 			skin=new pano2vrSkin(pano);
 			// load the configuration
-		
 			window.addEventListener("load", function() {
-				pano.readConfigUrlAsync("pano.xml");
+				pano.readConfigUrlAsync("pano.xml?ts=98279650");
 			});
 			if (window.navigator.userAgent.match(/Safari/i)) {
 				// fix for white borders, rotation on iPhone
@@ -112,8 +112,8 @@
 					window.scrollTo(0, 0);
 					pano.setViewerSize(container.offsetWidth, container.offsetHeight);
 				};
-				setTimeout(iosHfix,0);	
-				setTimeout(iosHfix,100);	
+				setTimeout(iosHfix,0);
+				setTimeout(iosHfix,100);
 				window.addEventListener("resize", function() {
 					setTimeout(iosHfix,0);
 					// hide toolbar on iPad happens with a delay
@@ -126,6 +126,6 @@
 		<noscript>
 			<p><b>Please enable Javascript!</b></p>
 		</noscript>
-<!-- - - - - - - 8<- - - - - - cut here - - - - - 8<- - - - - - - --> 
+<!-- - - - - - - 8<- - - - - - cut here - - - - - 8<- - - - - - - -->
 	</body>
 </html>
