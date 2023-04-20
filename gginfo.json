@@ -3,7 +3,6 @@
 	"type": "panorama",
 	"external": {
 		"js": [
-			"3rdparty/lottie/lottie.min.js",
 			"webxr/three.min.js",
 			"webxr/webxr-polyfill.min.js"
 		],
@@ -16,7 +15,7 @@
 	"player": {
 		"js": "pano2vr_player.js"
 	},
-	"creationdate": "2023-02-28T15:31:19.650Z",
+	"creationdate": "2023-04-20T08:09:12.489Z",
 	"configuration": "pano.xml",
 	"preview": {
 		"img": "preview.jpg",
