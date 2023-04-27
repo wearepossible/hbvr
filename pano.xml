@@ -1,536 +1,536 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <tour apprev="19958" start="node1" appversion="7.0.3">
   <panorama id="node1">
-    <input height="2500" width="2500" levelingroll="0" overlap="1" levelbiashidpi="1.000" levelbias="0.400" leveltilesize="510" leveltileurl="tiles/node1/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0">
-      <level height="2500" predecode="0" preload="0" width="2500"/>
-      <level height="1250" predecode="0" preload="0" width="1250"/>
-      <level height="625" predecode="0" preload="0" width="625"/>
-      <level height="312" predecode="1" preload="1" width="312"/>
-      <preview strip="1" color="0x808080"/>
+    <input levelingroll="0" leveltilesize="510" levelingpitch="0" overlap="1" leveltileurl="tiles/node1/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbias="0.400" height="2500" width="2500" levelbiashidpi="1.000">
+      <level predecode="0" height="2500" preload="0" width="2500"/>
+      <level predecode="0" height="1250" preload="0" width="1250"/>
+      <level predecode="0" height="625" preload="0" width="625"/>
+      <level predecode="1" height="312" preload="1" width="312"/>
+      <preview color="0x808080" strip="1"/>
     </input>
     <view pannorth="0" fovmode="2">
-      <start tilt="0" fov="100" pan="0" projection="4"/>
-      <flyin tilt="-90" fov="170" pan="0" projection="9"/>
+      <start fov="100" tilt="0" projection="4" pan="0"/>
+      <flyin fov="170" tilt="-90" projection="9" pan="0"/>
       <min tilt="-90" fovpixel="2" pan="0"/>
-      <max tilt="90" fovfisheye="360" fov="140" pan="360" scaletofit="1" fovstereographic="330"/>
+      <max scaletofit="1" fov="140" fovstereographic="330" fovfisheye="360" tilt="90" pan="360"/>
     </view>
-    <userdata description="" info="" copyright="" datetime="" title="" tags="360-01" source="" customnodeid="" longitude="" heading="0" comment="" nodeid="node1" author="" latitude=""/>
-    <hotspots height="20" smoothmovement="0" width="180" wordwrap="1">
-      <label textalpha="1" border="1" borderradius="1" height="20" enabled="1" width="180" backgroundalpha="1" borderalpha="1" wordwrap="1" background="1" textcolor="0x000000" bordercolor="0x000000" backgroundcolor="0xffffff"/>
-      <polystyle mode="0" bordercolor="0x0000ff" handcursor="1" borderalpha="1" backgroundcolor="0x0000ff" backgroundalpha="0.25098"/>
-      <hotspot description="" tilt="-0.08" target="0.0/0.0/100.0" skinid="ht_node" url="{node2}" title="" id="Point01" pan="-344.71"/>
-      <hotspot description="New Cafe for the general public. Also provides space for Pod and Bridge staff operations.&#xa;&#xa;On site operative would be stationed here whenever the service is running, monitoring camera feeds from within each pod to ensure passenger safety." tilt="-0.73" target="" skinid="ht_info" url="" title="New Cafe " id="Point02" pan="-281.27"/>
-      <hotspot description="pods can pass here" tilt="-1.06" target="" skinid="ht_info" url="" title="pod passing place" id="Point03" pan="-352.28"/>
-      <hotspot description="" tilt="-0.21" target="-176.5/0.4/100.0" skinid="ht_node" url="{node11}" title="" id="Point04" pan="-186.71"/>
-      <hotspot description="Zebra pedestrian crossing" tilt="-15.1" target="" skinid="ht_info" url="" title="Pedestrian Crossing" id="Point06" pan="-334.27"/>
-      <hotspot description="Zebra pedestrian crossing" tilt="-17.96" target="" skinid="ht_info" url="" title="Pedestrian Crossing" id="Point07" pan="-225.22"/>
-      <hotspot description="Cycle lane for onwards travel to Hammersmith Broadway via Bridge View and Bridge Avenue" tilt="-5.87" target="" skinid="ht_info" url="" title="Cycle Lane " id="Point08" pan="-72.35"/>
-      <hotspot description="loading bay for nearby businesses" tilt="-16.45" target="" skinid="ht_info" url="" title="Loading Bay" id="Point09" pan="-43.67"/>
+    <userdata tags="360-01" longitude="" title="" comment="" description="" info="" latitude="" source="" heading="0" nodeid="node1" author="" copyright="" datetime="" customnodeid=""/>
+    <hotspots smoothmovement="0" height="20" wordwrap="1" width="180">
+      <label backgroundalpha="1" background="1" bordercolor="0x000000" height="20" wordwrap="1" width="180" enabled="1" border="1" textalpha="1" borderradius="1" backgroundcolor="0xffffff" borderalpha="1" textcolor="0x000000"/>
+      <polystyle handcursor="1" backgroundalpha="0.25098" mode="0" backgroundcolor="0x0000ff" borderalpha="1" bordercolor="0x0000ff"/>
+      <hotspot url="{node2}" target="0.0/0.0/100.0" title="" id="Point01" tilt="-0.08" skinid="ht_node" pan="-344.71" description=""/>
+      <hotspot url="" target="" title="New Cafe " id="Point02" tilt="-0.73" skinid="ht_info" pan="-281.27" description="New Cafe for the general public. Also provides space for Pod and Bridge staff operations.&#xa;&#xa;On site operative would be stationed here whenever the service is running, monitoring camera feeds from within each pod to ensure passenger safety."/>
+      <hotspot url="" target="" title="pod passing place" id="Point03" tilt="-1.06" skinid="ht_info" pan="-352.28" description="pods can pass here"/>
+      <hotspot url="{node11}" target="-176.5/0.4/100.0" title="" id="Point04" tilt="-0.21" skinid="ht_node" pan="-186.71" description=""/>
+      <hotspot url="" target="" title="Pedestrian Crossing" id="Point06" tilt="-15.1" skinid="ht_info" pan="-334.27" description="Zebra pedestrian crossing"/>
+      <hotspot url="" target="" title="Pedestrian Crossing" id="Point07" tilt="-17.96" skinid="ht_info" pan="-225.22" description="Zebra pedestrian crossing"/>
+      <hotspot url="" target="" title="Cycle Lane " id="Point08" tilt="-5.87" skinid="ht_info" pan="-72.35" description="Cycle lane for onwards travel to Hammersmith Broadway via Bridge View and Bridge Avenue"/>
+      <hotspot url="" target="" title="Loading Bay" id="Point09" tilt="-16.45" skinid="ht_info" pan="-43.67" description="loading bay for nearby businesses"/>
     </hotspots>
     <media/>
-    <transition zoomfov="40" blendtime="1" zoomafterinfov="140" blendcolor="0x000000" zoomin="0" enabled="1" zoomoutpause="1" zoomout="0" delay="none" softedge="0" zoomspeed="2" type="crossdissolve" zoomafteroutfov="40"/>
-    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0" clipsrandom="0"/>
-    <control speedwheel="1" contextprojections="0" lockedmouse="0" simulatemass="1" hideabout="0" lockedkeyboardzoom="0" lockedwheel="0" dblclickfullscreen="0" contextfullscreen="1" invertcontrol="1" sensitivity="8" rubberband="0" lockedkeyboard="0" invertwheel="0" contextvr="1" zoomcentercursor="1"/>
+    <transition softedge="0" type="crossdissolve" zoomout="0" blendtime="1" zoomfov="40" enabled="1" blendcolor="0x000000" delay="none" zoomoutpause="1" zoomafteroutfov="40" zoomafterinfov="140" zoomspeed="2" zoomin="0"/>
+    <animation syncanimationwithvideo="0" clipsrandom="0" useinautorotation="0" animsequence="Animation01"/>
+    <control lockedkeyboardzoom="0" sensitivity="8" speedwheel="1" lockedmouse="0" simulatemass="1" contextprojections="0" dblclickfullscreen="0" invertcontrol="1" lockedkeyboard="0" contextvr="1" lockedwheel="0" invertwheel="0" hideabout="0" zoomcentercursor="1" rubberband="0" contextfullscreen="1"/>
     <vr toggleskinbutton="1"/>
   </panorama>
   <panorama id="node2">
-    <input height="2500" width="2500" levelingroll="0" overlap="1" levelbiashidpi="1.000" levelbias="0.400" leveltilesize="510" leveltileurl="tiles/node2/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0">
-      <level height="2500" predecode="0" preload="0" width="2500"/>
-      <level height="1250" predecode="0" preload="0" width="1250"/>
-      <level height="625" predecode="0" preload="0" width="625"/>
-      <level height="312" predecode="1" preload="1" width="312"/>
-      <preview strip="1" color="0x808080"/>
+    <input levelingroll="0" leveltilesize="510" levelingpitch="0" overlap="1" leveltileurl="tiles/node2/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbias="0.400" height="2500" width="2500" levelbiashidpi="1.000">
+      <level predecode="0" height="2500" preload="0" width="2500"/>
+      <level predecode="0" height="1250" preload="0" width="1250"/>
+      <level predecode="0" height="625" preload="0" width="625"/>
+      <level predecode="1" height="312" preload="1" width="312"/>
+      <preview color="0x808080" strip="1"/>
     </input>
     <view pannorth="0" fovmode="2">
-      <start tilt="0" fov="100" pan="0" projection="4"/>
-      <flyin tilt="-90" fov="170" pan="0" projection="9"/>
+      <start fov="100" tilt="0" projection="4" pan="0"/>
+      <flyin fov="170" tilt="-90" projection="9" pan="0"/>
       <min tilt="-90" fovpixel="2" pan="0"/>
-      <max tilt="90" fovfisheye="360" fov="140" pan="360" scaletofit="1" fovstereographic="330"/>
+      <max scaletofit="1" fov="140" fovstereographic="330" fovfisheye="360" tilt="90" pan="360"/>
     </view>
-    <userdata description="" info="" copyright="" datetime="" title="" tags="360-01" source="" customnodeid="" longitude="" heading="0" comment="" nodeid="node2" author="" latitude=""/>
-    <hotspots height="20" smoothmovement="0" width="180" wordwrap="1">
-      <label textalpha="1" border="1" borderradius="1" height="20" enabled="1" width="180" backgroundalpha="1" borderalpha="1" wordwrap="1" background="1" textcolor="0x000000" bordercolor="0x000000" backgroundcolor="0xffffff"/>
-      <polystyle mode="0" bordercolor="0x0000ff" handcursor="1" borderalpha="1" backgroundcolor="0x0000ff" backgroundalpha="0.25098"/>
-      <hotspot description="" tilt="1.15" target="1.3/0.8/100.0" skinid="ht_node" url="{node3}" title="" id="Point01" pan="-357.96"/>
-      <hotspot description="" tilt="-0.71" target="-170.2/-3.5/100.0" skinid="ht_node" url="{node1}" title="" id="Point02" pan="-159.72"/>
-      <hotspot description="" tilt="-2.54" target="" skinid="ht_node" url="{node18}" title="" id="Point03" pan="-19.93"/>
-      <hotspot description="New public space with planting areas, additional seating and widened pavements." tilt="-13.92" target="" skinid="ht_info" url="" title="Improved Public Realm" id="Point04" pan="-351.01"/>
-      <hotspot description="Pods to wait here for oncoming pods to pass. Only one pod permitted on the bridge at any one time.&#xa;&#xa;Inductive charging embedded in the road enables pods to charge while waiting to cross the bridge." tilt="-19.25" target="" skinid="ht_info" url="" title="Passing Place" id="Point05" pan="-24.06"/>
-      <hotspot description="Zebra pedestrian crossing" tilt="-11.05" target="" skinid="ht_info" url="" title="Pedestrian Crossing " id="Point06" pan="-325.76"/>
-      <hotspot description="Pod stop to improve access to North riverside" tilt="-5.25" target="" skinid="ht_info" url="" title="Pod Stop" id="Point07" pan="-353.12"/>
+    <userdata tags="360-01" longitude="" title="" comment="" description="" info="" latitude="" source="" heading="0" nodeid="node2" author="" copyright="" datetime="" customnodeid=""/>
+    <hotspots smoothmovement="0" height="20" wordwrap="1" width="180">
+      <label backgroundalpha="1" background="1" bordercolor="0x000000" height="20" wordwrap="1" width="180" enabled="1" border="1" textalpha="1" borderradius="1" backgroundcolor="0xffffff" borderalpha="1" textcolor="0x000000"/>
+      <polystyle handcursor="1" backgroundalpha="0.25098" mode="0" backgroundcolor="0x0000ff" borderalpha="1" bordercolor="0x0000ff"/>
+      <hotspot url="{node3}" target="1.3/0.8/100.0" title="" id="Point01" tilt="1.15" skinid="ht_node" pan="-357.96" description=""/>
+      <hotspot url="{node1}" target="-170.2/-3.5/100.0" title="" id="Point02" tilt="-0.71" skinid="ht_node" pan="-159.72" description=""/>
+      <hotspot url="{node18}" target="" title="" id="Point03" tilt="-2.54" skinid="ht_node" pan="-19.93" description=""/>
+      <hotspot url="" target="" title="Improved Public Realm" id="Point04" tilt="-13.92" skinid="ht_info" pan="-351.01" description="New public space with planting areas, additional seating and widened pavements."/>
+      <hotspot url="" target="" title="Passing Place" id="Point05" tilt="-19.25" skinid="ht_info" pan="-24.06" description="Pods to wait here for oncoming pods to pass. Only one pod permitted on the bridge at any one time.&#xa;&#xa;Inductive charging embedded in the road enables pods to charge while waiting to cross the bridge."/>
+      <hotspot url="" target="" title="Pedestrian Crossing " id="Point06" tilt="-11.05" skinid="ht_info" pan="-325.76" description="Zebra pedestrian crossing"/>
+      <hotspot url="" target="" title="Pod Stop" id="Point07" tilt="-5.25" skinid="ht_info" pan="-353.12" description="Pod stop to improve access to North riverside"/>
     </hotspots>
     <media/>
-    <transition zoomfov="40" blendtime="1" zoomafterinfov="140" blendcolor="0x000000" zoomin="0" enabled="1" zoomoutpause="1" zoomout="0" delay="none" softedge="0" zoomspeed="2" type="crossdissolve" zoomafteroutfov="40"/>
-    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0" clipsrandom="0"/>
-    <control speedwheel="1" contextprojections="0" lockedmouse="0" simulatemass="1" hideabout="0" lockedkeyboardzoom="0" lockedwheel="0" dblclickfullscreen="0" contextfullscreen="1" invertcontrol="1" sensitivity="8" rubberband="0" lockedkeyboard="0" invertwheel="0" contextvr="1" zoomcentercursor="1"/>
+    <transition softedge="0" type="crossdissolve" zoomout="0" blendtime="1" zoomfov="40" enabled="1" blendcolor="0x000000" delay="none" zoomoutpause="1" zoomafteroutfov="40" zoomafterinfov="140" zoomspeed="2" zoomin="0"/>
+    <animation syncanimationwithvideo="0" clipsrandom="0" useinautorotation="0" animsequence="Animation01"/>
+    <control lockedkeyboardzoom="0" sensitivity="8" speedwheel="1" lockedmouse="0" simulatemass="1" contextprojections="0" dblclickfullscreen="0" invertcontrol="1" lockedkeyboard="0" contextvr="1" lockedwheel="0" invertwheel="0" hideabout="0" zoomcentercursor="1" rubberband="0" contextfullscreen="1"/>
     <vr toggleskinbutton="1"/>
   </panorama>
   <panorama id="node3">
-    <input height="2500" width="2500" levelingroll="0" overlap="1" levelbiashidpi="1.000" levelbias="0.400" leveltilesize="510" leveltileurl="tiles/node3/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0">
-      <level height="2500" predecode="0" preload="0" width="2500"/>
-      <level height="1250" predecode="0" preload="0" width="1250"/>
-      <level height="625" predecode="0" preload="0" width="625"/>
-      <level height="312" predecode="1" preload="1" width="312"/>
-      <preview strip="1" color="0x808080"/>
+    <input levelingroll="0" leveltilesize="510" levelingpitch="0" overlap="1" leveltileurl="tiles/node3/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbias="0.400" height="2500" width="2500" levelbiashidpi="1.000">
+      <level predecode="0" height="2500" preload="0" width="2500"/>
+      <level predecode="0" height="1250" preload="0" width="1250"/>
+      <level predecode="0" height="625" preload="0" width="625"/>
+      <level predecode="1" height="312" preload="1" width="312"/>
+      <preview color="0x808080" strip="1"/>
     </input>
     <view pannorth="0" fovmode="2">
-      <start tilt="0" fov="100" pan="0" projection="4"/>
-      <flyin tilt="-90" fov="170" pan="0" projection="9"/>
+      <start fov="100" tilt="0" projection="4" pan="0"/>
+      <flyin fov="170" tilt="-90" projection="9" pan="0"/>
       <min tilt="-90" fovpixel="2" pan="0"/>
-      <max tilt="90" fovfisheye="360" fov="140" pan="360" scaletofit="1" fovstereographic="330"/>
+      <max scaletofit="1" fov="140" fovstereographic="330" fovfisheye="360" tilt="90" pan="360"/>
     </view>
-    <userdata description="" info="" copyright="" datetime="" title="" tags="360-01" source="" customnodeid="" longitude="" heading="0" comment="" nodeid="node3" author="" latitude=""/>
-    <hotspots height="20" smoothmovement="0" width="180" wordwrap="1">
-      <label textalpha="1" border="1" borderradius="1" height="20" enabled="1" width="180" backgroundalpha="1" borderalpha="1" wordwrap="1" background="1" textcolor="0x000000" bordercolor="0x000000" backgroundcolor="0xffffff"/>
-      <polystyle mode="0" bordercolor="0x0000ff" handcursor="1" borderalpha="1" backgroundcolor="0x0000ff" backgroundalpha="0.25098"/>
-      <hotspot description="" tilt="-1.46" target="178.2/-1.5/100.0" skinid="ht_node" url="{node2}" title="" id="Point01" pan="-175.71"/>
-      <hotspot description="" tilt="1.23" target="0.0/0.0/100.0" skinid="ht_node" url="{node4}" title="" id="Point02" pan="-358.72"/>
-      <hotspot description="Bi-directional cycle lane." tilt="-4.08" target="" skinid="ht_info" url="" title="Cycle Lane" id="Point03" pan="-355.37"/>
+    <userdata tags="360-01" longitude="" title="" comment="" description="" info="" latitude="" source="" heading="0" nodeid="node3" author="" copyright="" datetime="" customnodeid=""/>
+    <hotspots smoothmovement="0" height="20" wordwrap="1" width="180">
+      <label backgroundalpha="1" background="1" bordercolor="0x000000" height="20" wordwrap="1" width="180" enabled="1" border="1" textalpha="1" borderradius="1" backgroundcolor="0xffffff" borderalpha="1" textcolor="0x000000"/>
+      <polystyle handcursor="1" backgroundalpha="0.25098" mode="0" backgroundcolor="0x0000ff" borderalpha="1" bordercolor="0x0000ff"/>
+      <hotspot url="{node2}" target="178.2/-1.5/100.0" title="" id="Point01" tilt="-1.46" skinid="ht_node" pan="-175.71" description=""/>
+      <hotspot url="{node4}" target="0.0/0.0/100.0" title="" id="Point02" tilt="1.23" skinid="ht_node" pan="-358.72" description=""/>
+      <hotspot url="" target="" title="Cycle Lane" id="Point03" tilt="-4.08" skinid="ht_info" pan="-355.37" description="Bi-directional cycle lane."/>
     </hotspots>
     <media/>
-    <transition zoomfov="40" blendtime="1" zoomafterinfov="140" blendcolor="0x000000" zoomin="0" enabled="1" zoomoutpause="1" zoomout="0" delay="none" softedge="0" zoomspeed="2" type="crossdissolve" zoomafteroutfov="40"/>
-    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0" clipsrandom="0"/>
-    <control speedwheel="1" contextprojections="0" lockedmouse="0" simulatemass="1" hideabout="0" lockedkeyboardzoom="0" lockedwheel="0" dblclickfullscreen="0" contextfullscreen="1" invertcontrol="1" sensitivity="8" rubberband="0" lockedkeyboard="0" invertwheel="0" contextvr="1" zoomcentercursor="1"/>
+    <transition softedge="0" type="crossdissolve" zoomout="0" blendtime="1" zoomfov="40" enabled="1" blendcolor="0x000000" delay="none" zoomoutpause="1" zoomafteroutfov="40" zoomafterinfov="140" zoomspeed="2" zoomin="0"/>
+    <animation syncanimationwithvideo="0" clipsrandom="0" useinautorotation="0" animsequence="Animation01"/>
+    <control lockedkeyboardzoom="0" sensitivity="8" speedwheel="1" lockedmouse="0" simulatemass="1" contextprojections="0" dblclickfullscreen="0" invertcontrol="1" lockedkeyboard="0" contextvr="1" lockedwheel="0" invertwheel="0" hideabout="0" zoomcentercursor="1" rubberband="0" contextfullscreen="1"/>
     <vr toggleskinbutton="1"/>
   </panorama>
   <panorama id="node4">
-    <input height="2500" width="2500" levelingroll="0" overlap="1" levelbiashidpi="1.000" levelbias="0.400" leveltilesize="510" leveltileurl="tiles/node4/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0">
-      <level height="2500" predecode="0" preload="0" width="2500"/>
-      <level height="1250" predecode="0" preload="0" width="1250"/>
-      <level height="625" predecode="0" preload="0" width="625"/>
-      <level height="312" predecode="1" preload="1" width="312"/>
-      <preview strip="1" color="0x808080"/>
+    <input levelingroll="0" leveltilesize="510" levelingpitch="0" overlap="1" leveltileurl="tiles/node4/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbias="0.400" height="2500" width="2500" levelbiashidpi="1.000">
+      <level predecode="0" height="2500" preload="0" width="2500"/>
+      <level predecode="0" height="1250" preload="0" width="1250"/>
+      <level predecode="0" height="625" preload="0" width="625"/>
+      <level predecode="1" height="312" preload="1" width="312"/>
+      <preview color="0x808080" strip="1"/>
     </input>
     <view pannorth="0" fovmode="2">
-      <start tilt="0" fov="100" pan="0" projection="4"/>
-      <flyin tilt="-90" fov="170" pan="0" projection="9"/>
+      <start fov="100" tilt="0" projection="4" pan="0"/>
+      <flyin fov="170" tilt="-90" projection="9" pan="0"/>
       <min tilt="-90" fovpixel="2" pan="0"/>
-      <max tilt="90" fovfisheye="360" fov="140" pan="360" scaletofit="1" fovstereographic="330"/>
+      <max scaletofit="1" fov="140" fovstereographic="330" fovfisheye="360" tilt="90" pan="360"/>
     </view>
-    <userdata description="" info="" copyright="" datetime="" title="" tags="360-01" source="" customnodeid="" longitude="" heading="0" comment="" nodeid="node4" author="" latitude=""/>
-    <hotspots height="20" smoothmovement="0" width="180" wordwrap="1">
-      <label textalpha="1" border="1" borderradius="1" height="20" enabled="1" width="180" backgroundalpha="1" borderalpha="1" wordwrap="1" background="1" textcolor="0x000000" bordercolor="0x000000" backgroundcolor="0xffffff"/>
-      <polystyle mode="0" bordercolor="0x0000ff" handcursor="1" borderalpha="1" backgroundcolor="0x0000ff" backgroundalpha="0.25098"/>
-      <hotspot description="" tilt="-2.49" target="-176.1/-3.8/70.8" skinid="ht_node" url="{node3}" title="" id="Point01" pan="-177.73"/>
-      <hotspot description="" tilt="-1.75" target="" skinid="ht_node" url="{node5}" title="" id="Point02" pan="-357.72"/>
-      <hotspot description="Planting provided along the length of the bridge.&#xa;&#xa;Hydroponic growth substrate and automatic irrigation will be used to minimise additional weight on the bridge. Planting can be concentrated on top of the stone pillars if needed." tilt="-6.47" target="" skinid="ht_info" url="" title="Improved Public Realm" id="Point03" pan="-15.59"/>
+    <userdata tags="360-01" longitude="" title="" comment="" description="" info="" latitude="" source="" heading="0" nodeid="node4" author="" copyright="" datetime="" customnodeid=""/>
+    <hotspots smoothmovement="0" height="20" wordwrap="1" width="180">
+      <label backgroundalpha="1" background="1" bordercolor="0x000000" height="20" wordwrap="1" width="180" enabled="1" border="1" textalpha="1" borderradius="1" backgroundcolor="0xffffff" borderalpha="1" textcolor="0x000000"/>
+      <polystyle handcursor="1" backgroundalpha="0.25098" mode="0" backgroundcolor="0x0000ff" borderalpha="1" bordercolor="0x0000ff"/>
+      <hotspot url="{node3}" target="-176.1/-3.8/70.8" title="" id="Point01" tilt="-2.49" skinid="ht_node" pan="-177.73" description=""/>
+      <hotspot url="{node5}" target="" title="" id="Point02" tilt="-1.75" skinid="ht_node" pan="-357.72" description=""/>
+      <hotspot url="" target="" title="Improved Public Realm" id="Point03" tilt="-6.47" skinid="ht_info" pan="-15.59" description="Planting provided along the length of the bridge.&#xa;&#xa;Hydroponic growth substrate and automatic irrigation will be used to minimise additional weight on the bridge. Planting can be concentrated on top of the stone pillars if needed."/>
     </hotspots>
     <media/>
-    <transition zoomfov="40" blendtime="1" zoomafterinfov="140" blendcolor="0x000000" zoomin="0" enabled="1" zoomoutpause="1" zoomout="0" delay="none" softedge="0" zoomspeed="2" type="crossdissolve" zoomafteroutfov="40"/>
-    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0" clipsrandom="0"/>
-    <control speedwheel="1" contextprojections="0" lockedmouse="0" simulatemass="1" hideabout="0" lockedkeyboardzoom="0" lockedwheel="0" dblclickfullscreen="0" contextfullscreen="1" invertcontrol="1" sensitivity="8" rubberband="0" lockedkeyboard="0" invertwheel="0" contextvr="1" zoomcentercursor="1"/>
+    <transition softedge="0" type="crossdissolve" zoomout="0" blendtime="1" zoomfov="40" enabled="1" blendcolor="0x000000" delay="none" zoomoutpause="1" zoomafteroutfov="40" zoomafterinfov="140" zoomspeed="2" zoomin="0"/>
+    <animation syncanimationwithvideo="0" clipsrandom="0" useinautorotation="0" animsequence="Animation01"/>
+    <control lockedkeyboardzoom="0" sensitivity="8" speedwheel="1" lockedmouse="0" simulatemass="1" contextprojections="0" dblclickfullscreen="0" invertcontrol="1" lockedkeyboard="0" contextvr="1" lockedwheel="0" invertwheel="0" hideabout="0" zoomcentercursor="1" rubberband="0" contextfullscreen="1"/>
     <vr toggleskinbutton="1"/>
   </panorama>
   <panorama id="node5">
-    <input height="2500" width="2500" levelingroll="0" overlap="1" levelbiashidpi="1.000" levelbias="0.400" leveltilesize="510" leveltileurl="tiles/node5/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0">
-      <level height="2500" predecode="0" preload="0" width="2500"/>
-      <level height="1250" predecode="0" preload="0" width="1250"/>
-      <level height="625" predecode="0" preload="0" width="625"/>
-      <level height="312" predecode="1" preload="1" width="312"/>
-      <preview strip="1" color="0x808080"/>
+    <input levelingroll="0" leveltilesize="510" levelingpitch="0" overlap="1" leveltileurl="tiles/node5/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbias="0.400" height="2500" width="2500" levelbiashidpi="1.000">
+      <level predecode="0" height="2500" preload="0" width="2500"/>
+      <level predecode="0" height="1250" preload="0" width="1250"/>
+      <level predecode="0" height="625" preload="0" width="625"/>
+      <level predecode="1" height="312" preload="1" width="312"/>
+      <preview color="0x808080" strip="1"/>
     </input>
     <view pannorth="0" fovmode="2">
-      <start tilt="0" fov="100" pan="0" projection="4"/>
-      <flyin tilt="-90" fov="170" pan="0" projection="9"/>
+      <start fov="100" tilt="0" projection="4" pan="0"/>
+      <flyin fov="170" tilt="-90" projection="9" pan="0"/>
       <min tilt="-90" fovpixel="2" pan="0"/>
-      <max tilt="90" fovfisheye="360" fov="140" pan="360" scaletofit="1" fovstereographic="330"/>
+      <max scaletofit="1" fov="140" fovstereographic="330" fovfisheye="360" tilt="90" pan="360"/>
     </view>
-    <userdata description="" info="" copyright="" datetime="" title="" tags="360-01" source="" customnodeid="" longitude="" heading="0" comment="" nodeid="node5" author="" latitude=""/>
-    <hotspots height="20" smoothmovement="0" width="180" wordwrap="1">
-      <label textalpha="1" border="1" borderradius="1" height="20" enabled="1" width="180" backgroundalpha="1" borderalpha="1" wordwrap="1" background="1" textcolor="0x000000" bordercolor="0x000000" backgroundcolor="0xffffff"/>
-      <polystyle mode="0" bordercolor="0x0000ff" handcursor="1" borderalpha="1" backgroundcolor="0x0000ff" backgroundalpha="0.25098"/>
-      <hotspot description="" tilt="-2.32" target="" skinid="ht_node" url="{node6}" title="" id="Point01" pan="-357.55"/>
-      <hotspot description="" tilt="2.25" target="-177.7/-0.8/100.0" skinid="ht_node" url="{node4}" title="" id="Point02" pan="-177.79"/>
-      <hotspot description="Existing segregated walkways retained" tilt="-1.72" target="" skinid="ht_info" url="" title="Road space " id="Point03" pan="-208.08"/>
+    <userdata tags="360-01" longitude="" title="" comment="" description="" info="" latitude="" source="" heading="0" nodeid="node5" author="" copyright="" datetime="" customnodeid=""/>
+    <hotspots smoothmovement="0" height="20" wordwrap="1" width="180">
+      <label backgroundalpha="1" background="1" bordercolor="0x000000" height="20" wordwrap="1" width="180" enabled="1" border="1" textalpha="1" borderradius="1" backgroundcolor="0xffffff" borderalpha="1" textcolor="0x000000"/>
+      <polystyle handcursor="1" backgroundalpha="0.25098" mode="0" backgroundcolor="0x0000ff" borderalpha="1" bordercolor="0x0000ff"/>
+      <hotspot url="{node6}" target="" title="" id="Point01" tilt="-2.32" skinid="ht_node" pan="-357.55" description=""/>
+      <hotspot url="{node4}" target="-177.7/-0.8/100.0" title="" id="Point02" tilt="2.25" skinid="ht_node" pan="-177.79" description=""/>
+      <hotspot url="" target="" title="Road space " id="Point03" tilt="-1.72" skinid="ht_info" pan="-208.08" description="Existing segregated walkways retained"/>
     </hotspots>
     <media/>
-    <transition zoomfov="40" blendtime="1" zoomafterinfov="140" blendcolor="0x000000" zoomin="0" enabled="1" zoomoutpause="1" zoomout="0" delay="none" softedge="0" zoomspeed="2" type="crossdissolve" zoomafteroutfov="40"/>
-    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0" clipsrandom="0"/>
-    <control speedwheel="1" contextprojections="0" lockedmouse="0" simulatemass="1" hideabout="0" lockedkeyboardzoom="0" lockedwheel="0" dblclickfullscreen="0" contextfullscreen="1" invertcontrol="1" sensitivity="8" rubberband="0" lockedkeyboard="0" invertwheel="0" contextvr="1" zoomcentercursor="1"/>
+    <transition softedge="0" type="crossdissolve" zoomout="0" blendtime="1" zoomfov="40" enabled="1" blendcolor="0x000000" delay="none" zoomoutpause="1" zoomafteroutfov="40" zoomafterinfov="140" zoomspeed="2" zoomin="0"/>
+    <animation syncanimationwithvideo="0" clipsrandom="0" useinautorotation="0" animsequence="Animation01"/>
+    <control lockedkeyboardzoom="0" sensitivity="8" speedwheel="1" lockedmouse="0" simulatemass="1" contextprojections="0" dblclickfullscreen="0" invertcontrol="1" lockedkeyboard="0" contextvr="1" lockedwheel="0" invertwheel="0" hideabout="0" zoomcentercursor="1" rubberband="0" contextfullscreen="1"/>
     <vr toggleskinbutton="1"/>
   </panorama>
   <panorama id="node6">
-    <input height="2500" width="2500" levelingroll="0" overlap="1" levelbiashidpi="1.000" levelbias="0.400" leveltilesize="510" leveltileurl="tiles/node6/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0">
-      <level height="2500" predecode="0" preload="0" width="2500"/>
-      <level height="1250" predecode="0" preload="0" width="1250"/>
-      <level height="625" predecode="0" preload="0" width="625"/>
-      <level height="312" predecode="1" preload="1" width="312"/>
-      <preview strip="1" color="0x808080"/>
+    <input levelingroll="0" leveltilesize="510" levelingpitch="0" overlap="1" leveltileurl="tiles/node6/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbias="0.400" height="2500" width="2500" levelbiashidpi="1.000">
+      <level predecode="0" height="2500" preload="0" width="2500"/>
+      <level predecode="0" height="1250" preload="0" width="1250"/>
+      <level predecode="0" height="625" preload="0" width="625"/>
+      <level predecode="1" height="312" preload="1" width="312"/>
+      <preview color="0x808080" strip="1"/>
     </input>
     <view pannorth="0" fovmode="2">
-      <start tilt="0" fov="100" pan="0" projection="4"/>
-      <flyin tilt="-90" fov="170" pan="0" projection="9"/>
+      <start fov="100" tilt="0" projection="4" pan="0"/>
+      <flyin fov="170" tilt="-90" projection="9" pan="0"/>
       <min tilt="-90" fovpixel="2" pan="0"/>
-      <max tilt="90" fovfisheye="360" fov="140" pan="360" scaletofit="1" fovstereographic="330"/>
+      <max scaletofit="1" fov="140" fovstereographic="330" fovfisheye="360" tilt="90" pan="360"/>
     </view>
-    <userdata description="" info="" copyright="" datetime="" title="" tags="360-01" source="" customnodeid="" longitude="" heading="0" comment="" nodeid="node6" author="" latitude=""/>
-    <hotspots height="20" smoothmovement="0" width="180" wordwrap="1">
-      <label textalpha="1" border="1" borderradius="1" height="20" enabled="1" width="180" backgroundalpha="1" borderalpha="1" wordwrap="1" background="1" textcolor="0x000000" bordercolor="0x000000" backgroundcolor="0xffffff"/>
-      <polystyle mode="0" bordercolor="0x0000ff" handcursor="1" borderalpha="1" backgroundcolor="0x0000ff" backgroundalpha="0.25098"/>
-      <hotspot description="" tilt="0.14" target="-179.4/-3.4/100.0" skinid="ht_node" url="{node5}" title="" id="Point01" pan="-178.2"/>
-      <hotspot description="" tilt="0.1" target="0.0/0.0/100.0" skinid="ht_node" url="{node7}" title="" id="Point02" pan="-357.1"/>
-      <hotspot description="Zebra pedestrian crossing" tilt="-28.08" target="" skinid="ht_info" url="" title="Pedestrian Crossing" id="Point03" pan="-349.55"/>
-      <hotspot description="Pods to wait here for oncoming pods to pass. Only one pod permitted on the bridge at any one time.&#xa;&#xa;Inductive charging embedded in the road enables pods to charge while waiting to cross the bridge" tilt="-1.29" target="" skinid="ht_info" url="" title="Passing Place" id="Point04" pan="-8.98"/>
+    <userdata tags="360-01" longitude="" title="" comment="" description="" info="" latitude="" source="" heading="0" nodeid="node6" author="" copyright="" datetime="" customnodeid=""/>
+    <hotspots smoothmovement="0" height="20" wordwrap="1" width="180">
+      <label backgroundalpha="1" background="1" bordercolor="0x000000" height="20" wordwrap="1" width="180" enabled="1" border="1" textalpha="1" borderradius="1" backgroundcolor="0xffffff" borderalpha="1" textcolor="0x000000"/>
+      <polystyle handcursor="1" backgroundalpha="0.25098" mode="0" backgroundcolor="0x0000ff" borderalpha="1" bordercolor="0x0000ff"/>
+      <hotspot url="{node5}" target="-179.4/-3.4/100.0" title="" id="Point01" tilt="0.14" skinid="ht_node" pan="-178.2" description=""/>
+      <hotspot url="{node7}" target="0.0/0.0/100.0" title="" id="Point02" tilt="0.1" skinid="ht_node" pan="-357.1" description=""/>
+      <hotspot url="" target="" title="Pedestrian Crossing" id="Point03" tilt="-28.08" skinid="ht_info" pan="-349.55" description="Zebra pedestrian crossing"/>
+      <hotspot url="" target="" title="Passing Place" id="Point04" tilt="-1.29" skinid="ht_info" pan="-8.98" description="Pods to wait here for oncoming pods to pass. Only one pod permitted on the bridge at any one time.&#xa;&#xa;Inductive charging embedded in the road enables pods to charge while waiting to cross the bridge"/>
     </hotspots>
     <media/>
-    <transition zoomfov="40" blendtime="1" zoomafterinfov="140" blendcolor="0x000000" zoomin="0" enabled="1" zoomoutpause="1" zoomout="0" delay="none" softedge="0" zoomspeed="2" type="crossdissolve" zoomafteroutfov="40"/>
-    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0" clipsrandom="0"/>
-    <control speedwheel="1" contextprojections="0" lockedmouse="0" simulatemass="1" hideabout="0" lockedkeyboardzoom="0" lockedwheel="0" dblclickfullscreen="0" contextfullscreen="1" invertcontrol="1" sensitivity="8" rubberband="0" lockedkeyboard="0" invertwheel="0" contextvr="1" zoomcentercursor="1"/>
+    <transition softedge="0" type="crossdissolve" zoomout="0" blendtime="1" zoomfov="40" enabled="1" blendcolor="0x000000" delay="none" zoomoutpause="1" zoomafteroutfov="40" zoomafterinfov="140" zoomspeed="2" zoomin="0"/>
+    <animation syncanimationwithvideo="0" clipsrandom="0" useinautorotation="0" animsequence="Animation01"/>
+    <control lockedkeyboardzoom="0" sensitivity="8" speedwheel="1" lockedmouse="0" simulatemass="1" contextprojections="0" dblclickfullscreen="0" invertcontrol="1" lockedkeyboard="0" contextvr="1" lockedwheel="0" invertwheel="0" hideabout="0" zoomcentercursor="1" rubberband="0" contextfullscreen="1"/>
     <vr toggleskinbutton="1"/>
   </panorama>
   <panorama id="node7">
-    <input height="2500" width="2500" levelingroll="0" overlap="1" levelbiashidpi="1.000" levelbias="0.400" leveltilesize="510" leveltileurl="tiles/node7/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0">
-      <level height="2500" predecode="0" preload="0" width="2500"/>
-      <level height="1250" predecode="0" preload="0" width="1250"/>
-      <level height="625" predecode="0" preload="0" width="625"/>
-      <level height="312" predecode="1" preload="1" width="312"/>
-      <preview strip="1" color="0x808080"/>
+    <input levelingroll="0" leveltilesize="510" levelingpitch="0" overlap="1" leveltileurl="tiles/node7/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbias="0.400" height="2500" width="2500" levelbiashidpi="1.000">
+      <level predecode="0" height="2500" preload="0" width="2500"/>
+      <level predecode="0" height="1250" preload="0" width="1250"/>
+      <level predecode="0" height="625" preload="0" width="625"/>
+      <level predecode="1" height="312" preload="1" width="312"/>
+      <preview color="0x808080" strip="1"/>
     </input>
     <view pannorth="0" fovmode="2">
-      <start tilt="0" fov="100" pan="0" projection="4"/>
-      <flyin tilt="-90" fov="170" pan="0" projection="9"/>
+      <start fov="100" tilt="0" projection="4" pan="0"/>
+      <flyin fov="170" tilt="-90" projection="9" pan="0"/>
       <min tilt="-90" fovpixel="2" pan="0"/>
-      <max tilt="90" fovfisheye="360" fov="140" pan="360" scaletofit="1" fovstereographic="330"/>
+      <max scaletofit="1" fov="140" fovstereographic="330" fovfisheye="360" tilt="90" pan="360"/>
     </view>
-    <userdata description="" info="" copyright="" datetime="" title="" tags="360-01" source="" customnodeid="" longitude="" heading="0" comment="" nodeid="node7" author="" latitude=""/>
-    <hotspots height="20" smoothmovement="0" width="180" wordwrap="1">
-      <label textalpha="1" border="1" borderradius="1" height="20" enabled="1" width="180" backgroundalpha="1" borderalpha="1" wordwrap="1" background="1" textcolor="0x000000" bordercolor="0x000000" backgroundcolor="0xffffff"/>
-      <polystyle mode="0" bordercolor="0x0000ff" handcursor="1" borderalpha="1" backgroundcolor="0x0000ff" backgroundalpha="0.25098"/>
-      <hotspot description="" tilt="-0.95" target="0.0/0.0/100.0" skinid="ht_node" url="{node8}" title="" id="Point01" pan="-357.55"/>
-      <hotspot description="" tilt="0.14" target="-176.9/-4.0/100.0" skinid="ht_node" url="{node6}" title="" id="Point02" pan="-177.32"/>
-      <hotspot description="Space for approximately two taxis. May also be used as a loading bay." tilt="-2.32" target="" skinid="ht_info" url="" title="Taxi Rank" id="Point03" pan="-167.33"/>
-      <hotspot description="Segregated Podway with planting." tilt="-3.08" target="" skinid="ht_info" url="" title="Improved Public Realm" id="Point04" pan="-8.86"/>
+    <userdata tags="360-01" longitude="" title="" comment="" description="" info="" latitude="" source="" heading="0" nodeid="node7" author="" copyright="" datetime="" customnodeid=""/>
+    <hotspots smoothmovement="0" height="20" wordwrap="1" width="180">
+      <label backgroundalpha="1" background="1" bordercolor="0x000000" height="20" wordwrap="1" width="180" enabled="1" border="1" textalpha="1" borderradius="1" backgroundcolor="0xffffff" borderalpha="1" textcolor="0x000000"/>
+      <polystyle handcursor="1" backgroundalpha="0.25098" mode="0" backgroundcolor="0x0000ff" borderalpha="1" bordercolor="0x0000ff"/>
+      <hotspot url="{node8}" target="0.0/0.0/100.0" title="" id="Point01" tilt="-0.95" skinid="ht_node" pan="-357.55" description=""/>
+      <hotspot url="{node6}" target="-176.9/-4.0/100.0" title="" id="Point02" tilt="0.14" skinid="ht_node" pan="-177.32" description=""/>
+      <hotspot url="" target="" title="Taxi Rank" id="Point03" tilt="-2.32" skinid="ht_info" pan="-167.33" description="Space for approximately two taxis. May also be used as a loading bay."/>
+      <hotspot url="" target="" title="Improved Public Realm" id="Point04" tilt="-3.08" skinid="ht_info" pan="-8.86" description="Segregated Podway with planting."/>
     </hotspots>
     <media/>
-    <transition zoomfov="40" blendtime="1" zoomafterinfov="140" blendcolor="0x000000" zoomin="0" enabled="1" zoomoutpause="1" zoomout="0" delay="none" softedge="0" zoomspeed="2" type="crossdissolve" zoomafteroutfov="40"/>
-    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0" clipsrandom="0"/>
-    <control speedwheel="1" contextprojections="0" lockedmouse="0" simulatemass="1" hideabout="0" lockedkeyboardzoom="0" lockedwheel="0" dblclickfullscreen="0" contextfullscreen="1" invertcontrol="1" sensitivity="8" rubberband="0" lockedkeyboard="0" invertwheel="0" contextvr="1" zoomcentercursor="1"/>
+    <transition softedge="0" type="crossdissolve" zoomout="0" blendtime="1" zoomfov="40" enabled="1" blendcolor="0x000000" delay="none" zoomoutpause="1" zoomafteroutfov="40" zoomafterinfov="140" zoomspeed="2" zoomin="0"/>
+    <animation syncanimationwithvideo="0" clipsrandom="0" useinautorotation="0" animsequence="Animation01"/>
+    <control lockedkeyboardzoom="0" sensitivity="8" speedwheel="1" lockedmouse="0" simulatemass="1" contextprojections="0" dblclickfullscreen="0" invertcontrol="1" lockedkeyboard="0" contextvr="1" lockedwheel="0" invertwheel="0" hideabout="0" zoomcentercursor="1" rubberband="0" contextfullscreen="1"/>
     <vr toggleskinbutton="1"/>
   </panorama>
   <panorama id="node8">
-    <input height="2500" width="2500" levelingroll="0" overlap="1" levelbiashidpi="1.000" levelbias="0.400" leveltilesize="510" leveltileurl="tiles/node8/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0">
-      <level height="2500" predecode="0" preload="0" width="2500"/>
-      <level height="1250" predecode="0" preload="0" width="1250"/>
-      <level height="625" predecode="0" preload="0" width="625"/>
-      <level height="312" predecode="1" preload="1" width="312"/>
-      <preview strip="1" color="0x808080"/>
+    <input levelingroll="0" leveltilesize="510" levelingpitch="0" overlap="1" leveltileurl="tiles/node8/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbias="0.400" height="2500" width="2500" levelbiashidpi="1.000">
+      <level predecode="0" height="2500" preload="0" width="2500"/>
+      <level predecode="0" height="1250" preload="0" width="1250"/>
+      <level predecode="0" height="625" preload="0" width="625"/>
+      <level predecode="1" height="312" preload="1" width="312"/>
+      <preview color="0x808080" strip="1"/>
     </input>
     <view pannorth="0" fovmode="2">
-      <start tilt="0" fov="100" pan="0" projection="4"/>
-      <flyin tilt="-90" fov="170" pan="0" projection="9"/>
+      <start fov="100" tilt="0" projection="4" pan="0"/>
+      <flyin fov="170" tilt="-90" projection="9" pan="0"/>
       <min tilt="-90" fovpixel="2" pan="0"/>
-      <max tilt="90" fovfisheye="360" fov="140" pan="360" scaletofit="1" fovstereographic="330"/>
+      <max scaletofit="1" fov="140" fovstereographic="330" fovfisheye="360" tilt="90" pan="360"/>
     </view>
-    <userdata description="" info="" copyright="" datetime="" title="" tags="360-01" source="" customnodeid="" longitude="" heading="0" comment="" nodeid="node8" author="" latitude=""/>
-    <hotspots height="20" smoothmovement="0" width="180" wordwrap="1">
-      <label textalpha="1" border="1" borderradius="1" height="20" enabled="1" width="180" backgroundalpha="1" borderalpha="1" wordwrap="1" background="1" textcolor="0x000000" bordercolor="0x000000" backgroundcolor="0xffffff"/>
-      <polystyle mode="0" bordercolor="0x0000ff" handcursor="1" borderalpha="1" backgroundcolor="0x0000ff" backgroundalpha="0.25098"/>
-      <hotspot description="" tilt="-0.28" target="-179.4/-0.6/100.0" skinid="ht_node" url="{node7}" title="" id="Point01" pan="-177.64"/>
-      <hotspot description="" tilt="-0.46" target="" skinid="ht_node" url="{node9}" title="" id="Point02" pan="-358.05"/>
-      <hotspot description="Space for potential cycle hire parking." tilt="-2.29" target="" skinid="ht_info" url="" title="Cycle Hire" id="Point03" pan="-9.97"/>
-      <hotspot description="Access to Riverview Gardens, Clavering Avenue and Arundel Terrace via Castelnau retained.&#xa;&#xa;Low vehicular movement enables shared road space with cyclist." tilt="-10.59" target="" skinid="ht_info" url="" title="Road Space" id="Point04" pan="-181.65"/>
+    <userdata tags="360-01" longitude="" title="" comment="" description="" info="" latitude="" source="" heading="0" nodeid="node8" author="" copyright="" datetime="" customnodeid=""/>
+    <hotspots smoothmovement="0" height="20" wordwrap="1" width="180">
+      <label backgroundalpha="1" background="1" bordercolor="0x000000" height="20" wordwrap="1" width="180" enabled="1" border="1" textalpha="1" borderradius="1" backgroundcolor="0xffffff" borderalpha="1" textcolor="0x000000"/>
+      <polystyle handcursor="1" backgroundalpha="0.25098" mode="0" backgroundcolor="0x0000ff" borderalpha="1" bordercolor="0x0000ff"/>
+      <hotspot url="{node7}" target="-179.4/-0.6/100.0" title="" id="Point01" tilt="-0.28" skinid="ht_node" pan="-177.64" description=""/>
+      <hotspot url="{node9}" target="" title="" id="Point02" tilt="-0.46" skinid="ht_node" pan="-358.05" description=""/>
+      <hotspot url="" target="" title="Cycle Hire" id="Point03" tilt="-2.29" skinid="ht_info" pan="-9.97" description="Space for potential cycle hire parking."/>
+      <hotspot url="" target="" title="Road Space" id="Point04" tilt="-10.59" skinid="ht_info" pan="-181.65" description="Access to Riverview Gardens, Clavering Avenue and Arundel Terrace via Castelnau retained.&#xa;&#xa;Low vehicular movement enables shared road space with cyclist."/>
     </hotspots>
     <media/>
-    <transition zoomfov="40" blendtime="1" zoomafterinfov="140" blendcolor="0x000000" zoomin="0" enabled="1" zoomoutpause="1" zoomout="0" delay="none" softedge="0" zoomspeed="2" type="crossdissolve" zoomafteroutfov="40"/>
-    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0" clipsrandom="0"/>
-    <control speedwheel="1" contextprojections="0" lockedmouse="0" simulatemass="1" hideabout="0" lockedkeyboardzoom="0" lockedwheel="0" dblclickfullscreen="0" contextfullscreen="1" invertcontrol="1" sensitivity="8" rubberband="0" lockedkeyboard="0" invertwheel="0" contextvr="1" zoomcentercursor="1"/>
+    <transition softedge="0" type="crossdissolve" zoomout="0" blendtime="1" zoomfov="40" enabled="1" blendcolor="0x000000" delay="none" zoomoutpause="1" zoomafteroutfov="40" zoomafterinfov="140" zoomspeed="2" zoomin="0"/>
+    <animation syncanimationwithvideo="0" clipsrandom="0" useinautorotation="0" animsequence="Animation01"/>
+    <control lockedkeyboardzoom="0" sensitivity="8" speedwheel="1" lockedmouse="0" simulatemass="1" contextprojections="0" dblclickfullscreen="0" invertcontrol="1" lockedkeyboard="0" contextvr="1" lockedwheel="0" invertwheel="0" hideabout="0" zoomcentercursor="1" rubberband="0" contextfullscreen="1"/>
     <vr toggleskinbutton="1"/>
   </panorama>
   <panorama id="node9">
-    <input height="2500" width="2500" levelingroll="0" overlap="1" levelbiashidpi="1.000" levelbias="0.400" leveltilesize="510" leveltileurl="tiles/node9/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0">
-      <level height="2500" predecode="0" preload="0" width="2500"/>
-      <level height="1250" predecode="0" preload="0" width="1250"/>
-      <level height="625" predecode="0" preload="0" width="625"/>
-      <level height="312" predecode="1" preload="1" width="312"/>
-      <preview strip="1" color="0x808080"/>
+    <input levelingroll="0" leveltilesize="510" levelingpitch="0" overlap="1" leveltileurl="tiles/node9/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbias="0.400" height="2500" width="2500" levelbiashidpi="1.000">
+      <level predecode="0" height="2500" preload="0" width="2500"/>
+      <level predecode="0" height="1250" preload="0" width="1250"/>
+      <level predecode="0" height="625" preload="0" width="625"/>
+      <level predecode="1" height="312" preload="1" width="312"/>
+      <preview color="0x808080" strip="1"/>
     </input>
     <view pannorth="0" fovmode="2">
-      <start tilt="0" fov="100" pan="0" projection="4"/>
-      <flyin tilt="-90" fov="170" pan="0" projection="9"/>
+      <start fov="100" tilt="0" projection="4" pan="0"/>
+      <flyin fov="170" tilt="-90" projection="9" pan="0"/>
       <min tilt="-90" fovpixel="2" pan="0"/>
-      <max tilt="90" fovfisheye="360" fov="140" pan="360" scaletofit="1" fovstereographic="330"/>
+      <max scaletofit="1" fov="140" fovstereographic="330" fovfisheye="360" tilt="90" pan="360"/>
     </view>
-    <userdata description="" info="" copyright="" datetime="" title="" tags="360-01" source="" customnodeid="" longitude="" heading="0" comment="" nodeid="node9" author="" latitude=""/>
-    <hotspots height="20" smoothmovement="0" width="180" wordwrap="1">
-      <label textalpha="1" border="1" borderradius="1" height="20" enabled="1" width="180" backgroundalpha="1" borderalpha="1" wordwrap="1" background="1" textcolor="0x000000" bordercolor="0x000000" backgroundcolor="0xffffff"/>
-      <polystyle mode="0" bordercolor="0x0000ff" handcursor="1" borderalpha="1" backgroundcolor="0x0000ff" backgroundalpha="0.25098"/>
-      <hotspot description="" tilt="0.12" target="" skinid="ht_node" url="{node10}" title="" id="Point01" pan="-358.73"/>
-      <hotspot description="" tilt="-0.34" target="-177.5/0.5/100.0" skinid="ht_node" url="{node8}" title="" id="Point02" pan="-176.52"/>
-      <hotspot description="Podway crossing for cycles and scooters for access to Glentham Road and existing scooter hire parking spaces." tilt="-2.99" target="" skinid="ht_info" url="" title="Scooter Hire Parking" id="Point03" pan="-152.12"/>
-      <hotspot description="Interchange with local southbound buses.  Additional seating and a green plant roof.&#xa;&#xa;Weight limiters on board the pods will prevent shuttles from departing from stops if they are overloaded." tilt="7.33" target="" skinid="ht_info" url="" title="Barnes Terminus" id="Point04" pan="-31.1"/>
-      <hotspot description="Advance stop line for cyclists with low cyclist traffic lights." tilt="-1.92" target="" skinid="ht_info" url="" title="Traffic Lights" id="Point05" pan="-349.62"/>
+    <userdata tags="360-01" longitude="" title="" comment="" description="" info="" latitude="" source="" heading="0" nodeid="node9" author="" copyright="" datetime="" customnodeid=""/>
+    <hotspots smoothmovement="0" height="20" wordwrap="1" width="180">
+      <label backgroundalpha="1" background="1" bordercolor="0x000000" height="20" wordwrap="1" width="180" enabled="1" border="1" textalpha="1" borderradius="1" backgroundcolor="0xffffff" borderalpha="1" textcolor="0x000000"/>
+      <polystyle handcursor="1" backgroundalpha="0.25098" mode="0" backgroundcolor="0x0000ff" borderalpha="1" bordercolor="0x0000ff"/>
+      <hotspot url="{node10}" target="" title="" id="Point01" tilt="0.12" skinid="ht_node" pan="-358.73" description=""/>
+      <hotspot url="{node8}" target="-177.5/0.5/100.0" title="" id="Point02" tilt="-0.34" skinid="ht_node" pan="-176.52" description=""/>
+      <hotspot url="" target="" title="Scooter Hire Parking" id="Point03" tilt="-2.99" skinid="ht_info" pan="-152.12" description="Podway crossing for cycles and scooters for access to Glentham Road and existing scooter hire parking spaces."/>
+      <hotspot url="" target="" title="Barnes Terminus" id="Point04" tilt="7.33" skinid="ht_info" pan="-31.1" description="Interchange with local southbound buses.  Additional seating and a green plant roof.&#xa;&#xa;Weight limiters on board the pods will prevent shuttles from departing from stops if they are overloaded."/>
+      <hotspot url="" target="" title="Traffic Lights" id="Point05" tilt="-1.92" skinid="ht_info" pan="-349.62" description="Advance stop line for cyclists with low cyclist traffic lights."/>
     </hotspots>
     <media/>
-    <transition zoomfov="40" blendtime="1" zoomafterinfov="140" blendcolor="0x000000" zoomin="0" enabled="1" zoomoutpause="1" zoomout="0" delay="none" softedge="0" zoomspeed="2" type="crossdissolve" zoomafteroutfov="40"/>
-    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0" clipsrandom="0"/>
-    <control speedwheel="1" contextprojections="0" lockedmouse="0" simulatemass="1" hideabout="0" lockedkeyboardzoom="0" lockedwheel="0" dblclickfullscreen="0" contextfullscreen="1" invertcontrol="1" sensitivity="8" rubberband="0" lockedkeyboard="0" invertwheel="0" contextvr="1" zoomcentercursor="1"/>
+    <transition softedge="0" type="crossdissolve" zoomout="0" blendtime="1" zoomfov="40" enabled="1" blendcolor="0x000000" delay="none" zoomoutpause="1" zoomafteroutfov="40" zoomafterinfov="140" zoomspeed="2" zoomin="0"/>
+    <animation syncanimationwithvideo="0" clipsrandom="0" useinautorotation="0" animsequence="Animation01"/>
+    <control lockedkeyboardzoom="0" sensitivity="8" speedwheel="1" lockedmouse="0" simulatemass="1" contextprojections="0" dblclickfullscreen="0" invertcontrol="1" lockedkeyboard="0" contextvr="1" lockedwheel="0" invertwheel="0" hideabout="0" zoomcentercursor="1" rubberband="0" contextfullscreen="1"/>
     <vr toggleskinbutton="1"/>
   </panorama>
   <panorama id="node10">
-    <input height="2500" width="2500" levelingroll="0" overlap="1" levelbiashidpi="1.000" levelbias="0.400" leveltilesize="510" leveltileurl="tiles/node10/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0">
-      <level height="2500" predecode="0" preload="0" width="2500"/>
-      <level height="1250" predecode="0" preload="0" width="1250"/>
-      <level height="625" predecode="0" preload="0" width="625"/>
-      <level height="312" predecode="1" preload="1" width="312"/>
-      <preview strip="1" color="0x808080"/>
+    <input levelingroll="0" leveltilesize="510" levelingpitch="0" overlap="1" leveltileurl="tiles/node10/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbias="0.400" height="2500" width="2500" levelbiashidpi="1.000">
+      <level predecode="0" height="2500" preload="0" width="2500"/>
+      <level predecode="0" height="1250" preload="0" width="1250"/>
+      <level predecode="0" height="625" preload="0" width="625"/>
+      <level predecode="1" height="312" preload="1" width="312"/>
+      <preview color="0x808080" strip="1"/>
     </input>
     <view pannorth="0" fovmode="2">
-      <start tilt="0" fov="100" pan="0" projection="4"/>
-      <flyin tilt="-90" fov="170" pan="0" projection="9"/>
+      <start fov="100" tilt="0" projection="4" pan="0"/>
+      <flyin fov="170" tilt="-90" projection="9" pan="0"/>
       <min tilt="-90" fovpixel="2" pan="0"/>
-      <max tilt="90" fovfisheye="360" fov="140" pan="360" scaletofit="1" fovstereographic="330"/>
+      <max scaletofit="1" fov="140" fovstereographic="330" fovfisheye="360" tilt="90" pan="360"/>
     </view>
-    <userdata description="" info="" copyright="" datetime="" title="" tags="360-01" source="" customnodeid="" longitude="" heading="0" comment="" nodeid="node10" author="" latitude=""/>
-    <hotspots height="20" smoothmovement="0" width="180" wordwrap="1">
-      <label textalpha="1" border="1" borderradius="1" height="20" enabled="1" width="180" backgroundalpha="1" borderalpha="1" wordwrap="1" background="1" textcolor="0x000000" bordercolor="0x000000" backgroundcolor="0xffffff"/>
-      <polystyle mode="0" bordercolor="0x0000ff" handcursor="1" borderalpha="1" backgroundcolor="0x0000ff" backgroundalpha="0.25098"/>
-      <hotspot description="" tilt="-0.09" target="-176.4/-1.8/100.0" skinid="ht_node" url="{node9}" title="" id="Point01" pan="-178.66"/>
-      <hotspot description="Controlled junction with bus gate. Bus gate will activate on the approach of a bus to give priority to the junction. The junction is wide enough for terminating buses to do a U -turn." tilt="-0.77" target="" skinid="ht_info" url="" title="Bus Gate" id="Point02" pan="-12.43"/>
-      <hotspot description="New protected cycle lanes on Lonsdale Road" tilt="-1.38" target="" skinid="ht_info" url="" title="Cycle Lanes" id="Point03" pan="-73.19"/>
-      <hotspot description="Potential for UK first public mobility scooter hire" tilt="-1.77" target="" skinid="ht_info" url="" title="Mobility Scooter Hire" id="Point04" pan="-291.95"/>
-      <hotspot description="Cycle parking expanded" tilt="-3.13" target="" skinid="ht_info" url="" title="Cycle Parking" id="Point05" pan="-319.89"/>
-      <hotspot description="Emergency vehicle access retained" tilt="-7.8" target="" skinid="ht_info" url="" title="Emergency Vehicles" id="Point06" pan="-309.01"/>
-      <hotspot description="Bus stops retained to provide interchange with pods" tilt="0.81" target="" skinid="ht_info" url="" title="Bus stops" id="Point07" pan="-338.78"/>
+    <userdata tags="360-01" longitude="" title="" comment="" description="" info="" latitude="" source="" heading="0" nodeid="node10" author="" copyright="" datetime="" customnodeid=""/>
+    <hotspots smoothmovement="0" height="20" wordwrap="1" width="180">
+      <label backgroundalpha="1" background="1" bordercolor="0x000000" height="20" wordwrap="1" width="180" enabled="1" border="1" textalpha="1" borderradius="1" backgroundcolor="0xffffff" borderalpha="1" textcolor="0x000000"/>
+      <polystyle handcursor="1" backgroundalpha="0.25098" mode="0" backgroundcolor="0x0000ff" borderalpha="1" bordercolor="0x0000ff"/>
+      <hotspot url="{node9}" target="-176.4/-1.8/100.0" title="" id="Point01" tilt="-0.09" skinid="ht_node" pan="-178.66" description=""/>
+      <hotspot url="" target="" title="Bus Gate" id="Point02" tilt="-0.77" skinid="ht_info" pan="-12.43" description="Controlled junction with bus gate. Bus gate will activate on the approach of a bus to give priority to the junction. The junction is wide enough for terminating buses to do a U -turn."/>
+      <hotspot url="" target="" title="Cycle Lanes" id="Point03" tilt="-1.38" skinid="ht_info" pan="-73.19" description="New protected cycle lanes on Lonsdale Road"/>
+      <hotspot url="" target="" title="Mobility Scooter Hire" id="Point04" tilt="-1.77" skinid="ht_info" pan="-291.95" description="Potential for UK first public mobility scooter hire"/>
+      <hotspot url="" target="" title="Cycle Parking" id="Point05" tilt="-3.13" skinid="ht_info" pan="-319.89" description="Cycle parking expanded"/>
+      <hotspot url="" target="" title="Emergency Vehicles" id="Point06" tilt="-7.8" skinid="ht_info" pan="-309.01" description="Emergency vehicle access retained"/>
+      <hotspot url="" target="" title="Bus stops" id="Point07" tilt="0.81" skinid="ht_info" pan="-338.78" description="Bus stops retained to provide interchange with pods"/>
     </hotspots>
     <media/>
-    <transition zoomfov="40" blendtime="1" zoomafterinfov="140" blendcolor="0x000000" zoomin="0" enabled="1" zoomoutpause="1" zoomout="0" delay="none" softedge="0" zoomspeed="2" type="crossdissolve" zoomafteroutfov="40"/>
-    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0" clipsrandom="0"/>
-    <control speedwheel="1" contextprojections="0" lockedmouse="0" simulatemass="1" hideabout="0" lockedkeyboardzoom="0" lockedwheel="0" dblclickfullscreen="0" contextfullscreen="1" invertcontrol="1" sensitivity="8" rubberband="0" lockedkeyboard="0" invertwheel="0" contextvr="1" zoomcentercursor="1"/>
+    <transition softedge="0" type="crossdissolve" zoomout="0" blendtime="1" zoomfov="40" enabled="1" blendcolor="0x000000" delay="none" zoomoutpause="1" zoomafteroutfov="40" zoomafterinfov="140" zoomspeed="2" zoomin="0"/>
+    <animation syncanimationwithvideo="0" clipsrandom="0" useinautorotation="0" animsequence="Animation01"/>
+    <control lockedkeyboardzoom="0" sensitivity="8" speedwheel="1" lockedmouse="0" simulatemass="1" contextprojections="0" dblclickfullscreen="0" invertcontrol="1" lockedkeyboard="0" contextvr="1" lockedwheel="0" invertwheel="0" hideabout="0" zoomcentercursor="1" rubberband="0" contextfullscreen="1"/>
     <vr toggleskinbutton="1"/>
   </panorama>
   <panorama id="node11">
-    <input height="2500" width="2500" levelingroll="0" overlap="1" levelbiashidpi="1.000" levelbias="0.400" leveltilesize="510" leveltileurl="tiles/node11/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0">
-      <level height="2500" predecode="0" preload="0" width="2500"/>
-      <level height="1250" predecode="0" preload="0" width="1250"/>
-      <level height="625" predecode="0" preload="0" width="625"/>
-      <level height="312" predecode="1" preload="1" width="312"/>
-      <preview strip="1" color="0x808080"/>
+    <input levelingroll="0" leveltilesize="510" levelingpitch="0" overlap="1" leveltileurl="tiles/node11/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbias="0.400" height="2500" width="2500" levelbiashidpi="1.000">
+      <level predecode="0" height="2500" preload="0" width="2500"/>
+      <level predecode="0" height="1250" preload="0" width="1250"/>
+      <level predecode="0" height="625" preload="0" width="625"/>
+      <level predecode="1" height="312" preload="1" width="312"/>
+      <preview color="0x808080" strip="1"/>
     </input>
     <view pannorth="0" fovmode="2">
-      <start tilt="0" fov="100" pan="0" projection="4"/>
-      <flyin tilt="-90" fov="170" pan="0" projection="9"/>
+      <start fov="100" tilt="0" projection="4" pan="0"/>
+      <flyin fov="170" tilt="-90" projection="9" pan="0"/>
       <min tilt="-90" fovpixel="2" pan="0"/>
-      <max tilt="90" fovfisheye="360" fov="140" pan="360" scaletofit="1" fovstereographic="330"/>
+      <max scaletofit="1" fov="140" fovstereographic="330" fovfisheye="360" tilt="90" pan="360"/>
     </view>
-    <userdata description="" info="" copyright="" datetime="" title="" tags="360-01" source="" customnodeid="" longitude="" heading="0" comment="" nodeid="node11" author="" latitude=""/>
-    <hotspots height="20" smoothmovement="0" width="180" wordwrap="1">
-      <label textalpha="1" border="1" borderradius="1" height="20" enabled="1" width="180" backgroundalpha="1" borderalpha="1" wordwrap="1" background="1" textcolor="0x000000" bordercolor="0x000000" backgroundcolor="0xffffff"/>
-      <polystyle mode="0" bordercolor="0x0000ff" handcursor="1" borderalpha="1" backgroundcolor="0x0000ff" backgroundalpha="0.25098"/>
-      <hotspot description="" tilt="-0.01" target="" skinid="ht_node" url="{node1}" title="" id="Point01" pan="-4.6"/>
-      <hotspot description="" tilt="0.99" target="177.2/-0.7/100.0" skinid="ht_node" url="{node12}" title="" id="Point02" pan="-178.46"/>
-      <hotspot description="Low vehicular movement enables shared road space with cyclist." tilt="-24.84" target="" skinid="ht_info" url="" title="Road Space" id="Point03" pan="-134.1"/>
+    <userdata tags="360-01" longitude="" title="" comment="" description="" info="" latitude="" source="" heading="0" nodeid="node11" author="" copyright="" datetime="" customnodeid=""/>
+    <hotspots smoothmovement="0" height="20" wordwrap="1" width="180">
+      <label backgroundalpha="1" background="1" bordercolor="0x000000" height="20" wordwrap="1" width="180" enabled="1" border="1" textalpha="1" borderradius="1" backgroundcolor="0xffffff" borderalpha="1" textcolor="0x000000"/>
+      <polystyle handcursor="1" backgroundalpha="0.25098" mode="0" backgroundcolor="0x0000ff" borderalpha="1" bordercolor="0x0000ff"/>
+      <hotspot url="{node1}" target="" title="" id="Point01" tilt="-0.01" skinid="ht_node" pan="-4.6" description=""/>
+      <hotspot url="{node12}" target="177.2/-0.7/100.0" title="" id="Point02" tilt="0.99" skinid="ht_node" pan="-178.46" description=""/>
+      <hotspot url="" target="" title="Road Space" id="Point03" tilt="-24.84" skinid="ht_info" pan="-134.1" description="Low vehicular movement enables shared road space with cyclist."/>
     </hotspots>
     <media/>
-    <transition zoomfov="40" blendtime="1" zoomafterinfov="140" blendcolor="0x000000" zoomin="0" enabled="1" zoomoutpause="1" zoomout="0" delay="none" softedge="0" zoomspeed="2" type="crossdissolve" zoomafteroutfov="40"/>
-    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0" clipsrandom="0"/>
-    <control speedwheel="1" contextprojections="0" lockedmouse="0" simulatemass="1" hideabout="0" lockedkeyboardzoom="0" lockedwheel="0" dblclickfullscreen="0" contextfullscreen="1" invertcontrol="1" sensitivity="8" rubberband="0" lockedkeyboard="0" invertwheel="0" contextvr="1" zoomcentercursor="1"/>
+    <transition softedge="0" type="crossdissolve" zoomout="0" blendtime="1" zoomfov="40" enabled="1" blendcolor="0x000000" delay="none" zoomoutpause="1" zoomafteroutfov="40" zoomafterinfov="140" zoomspeed="2" zoomin="0"/>
+    <animation syncanimationwithvideo="0" clipsrandom="0" useinautorotation="0" animsequence="Animation01"/>
+    <control lockedkeyboardzoom="0" sensitivity="8" speedwheel="1" lockedmouse="0" simulatemass="1" contextprojections="0" dblclickfullscreen="0" invertcontrol="1" lockedkeyboard="0" contextvr="1" lockedwheel="0" invertwheel="0" hideabout="0" zoomcentercursor="1" rubberband="0" contextfullscreen="1"/>
     <vr toggleskinbutton="1"/>
   </panorama>
   <panorama id="node12">
-    <input height="2500" width="2500" levelingroll="0" overlap="1" levelbiashidpi="1.000" levelbias="0.400" leveltilesize="510" leveltileurl="tiles/node12/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0">
-      <level height="2500" predecode="0" preload="0" width="2500"/>
-      <level height="1250" predecode="0" preload="0" width="1250"/>
-      <level height="625" predecode="0" preload="0" width="625"/>
-      <level height="312" predecode="1" preload="1" width="312"/>
-      <preview strip="1" color="0x808080"/>
+    <input levelingroll="0" leveltilesize="510" levelingpitch="0" overlap="1" leveltileurl="tiles/node12/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbias="0.400" height="2500" width="2500" levelbiashidpi="1.000">
+      <level predecode="0" height="2500" preload="0" width="2500"/>
+      <level predecode="0" height="1250" preload="0" width="1250"/>
+      <level predecode="0" height="625" preload="0" width="625"/>
+      <level predecode="1" height="312" preload="1" width="312"/>
+      <preview color="0x808080" strip="1"/>
     </input>
     <view pannorth="0" fovmode="2">
-      <start tilt="0" fov="100" pan="0" projection="4"/>
-      <flyin tilt="-90" fov="170" pan="0" projection="9"/>
+      <start fov="100" tilt="0" projection="4" pan="0"/>
+      <flyin fov="170" tilt="-90" projection="9" pan="0"/>
       <min tilt="-90" fovpixel="2" pan="0"/>
-      <max tilt="90" fovfisheye="360" fov="140" pan="360" scaletofit="1" fovstereographic="330"/>
+      <max scaletofit="1" fov="140" fovstereographic="330" fovfisheye="360" tilt="90" pan="360"/>
     </view>
-    <userdata description="" info="" copyright="" datetime="" title="" tags="360-01" source="" customnodeid="" longitude="" heading="0" comment="" nodeid="node12" author="" latitude=""/>
-    <hotspots height="20" smoothmovement="0" width="180" wordwrap="1">
-      <label textalpha="1" border="1" borderradius="1" height="20" enabled="1" width="180" backgroundalpha="1" borderalpha="1" wordwrap="1" background="1" textcolor="0x000000" bordercolor="0x000000" backgroundcolor="0xffffff"/>
-      <polystyle mode="0" bordercolor="0x0000ff" handcursor="1" borderalpha="1" backgroundcolor="0x0000ff" backgroundalpha="0.25098"/>
-      <hotspot description="" tilt="1.24" target="-170.5/-1.6/100.0" skinid="ht_node" url="{node13}" title="" id="Point01" pan="-180.44"/>
-      <hotspot description="" tilt="-0.25" target="" skinid="ht_node" url="{node11}" title="" id="Point02" pan="-357.04"/>
-      <hotspot description="New bus stop for westbound buses and routes starting/terminating here." tilt="1.97" target="" skinid="ht_info" url="" title="Bus Stop" id="Point03" pan="-105.44"/>
-      <hotspot description="Bus stands moved for terminating buses." tilt="-3.04" target="" skinid="ht_info" url="" title="Bus Stand" id="Point04" pan="-103.29"/>
-      <hotspot description="Controlled pedestrian crossing" tilt="-24.48" target="" skinid="ht_info" url="" title="Pedestrian Crossing" id="Point05" pan="-290.37"/>
+    <userdata tags="360-01" longitude="" title="" comment="" description="" info="" latitude="" source="" heading="0" nodeid="node12" author="" copyright="" datetime="" customnodeid=""/>
+    <hotspots smoothmovement="0" height="20" wordwrap="1" width="180">
+      <label backgroundalpha="1" background="1" bordercolor="0x000000" height="20" wordwrap="1" width="180" enabled="1" border="1" textalpha="1" borderradius="1" backgroundcolor="0xffffff" borderalpha="1" textcolor="0x000000"/>
+      <polystyle handcursor="1" backgroundalpha="0.25098" mode="0" backgroundcolor="0x0000ff" borderalpha="1" bordercolor="0x0000ff"/>
+      <hotspot url="{node13}" target="-170.5/-1.6/100.0" title="" id="Point01" tilt="1.24" skinid="ht_node" pan="-180.44" description=""/>
+      <hotspot url="{node11}" target="" title="" id="Point02" tilt="-0.25" skinid="ht_node" pan="-357.04" description=""/>
+      <hotspot url="" target="" title="Bus Stop" id="Point03" tilt="1.97" skinid="ht_info" pan="-105.44" description="New bus stop for westbound buses and routes starting/terminating here."/>
+      <hotspot url="" target="" title="Bus Stand" id="Point04" tilt="-3.04" skinid="ht_info" pan="-103.29" description="Bus stands moved for terminating buses."/>
+      <hotspot url="" target="" title="Pedestrian Crossing" id="Point05" tilt="-24.48" skinid="ht_info" pan="-290.37" description="Controlled pedestrian crossing"/>
     </hotspots>
     <media/>
-    <transition zoomfov="40" blendtime="1" zoomafterinfov="140" blendcolor="0x000000" zoomin="0" enabled="1" zoomoutpause="1" zoomout="0" delay="none" softedge="0" zoomspeed="2" type="crossdissolve" zoomafteroutfov="40"/>
-    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0" clipsrandom="0"/>
-    <control speedwheel="1" contextprojections="0" lockedmouse="0" simulatemass="1" hideabout="0" lockedkeyboardzoom="0" lockedwheel="0" dblclickfullscreen="0" contextfullscreen="1" invertcontrol="1" sensitivity="8" rubberband="0" lockedkeyboard="0" invertwheel="0" contextvr="1" zoomcentercursor="1"/>
+    <transition softedge="0" type="crossdissolve" zoomout="0" blendtime="1" zoomfov="40" enabled="1" blendcolor="0x000000" delay="none" zoomoutpause="1" zoomafteroutfov="40" zoomafterinfov="140" zoomspeed="2" zoomin="0"/>
+    <animation syncanimationwithvideo="0" clipsrandom="0" useinautorotation="0" animsequence="Animation01"/>
+    <control lockedkeyboardzoom="0" sensitivity="8" speedwheel="1" lockedmouse="0" simulatemass="1" contextprojections="0" dblclickfullscreen="0" invertcontrol="1" lockedkeyboard="0" contextvr="1" lockedwheel="0" invertwheel="0" hideabout="0" zoomcentercursor="1" rubberband="0" contextfullscreen="1"/>
     <vr toggleskinbutton="1"/>
   </panorama>
   <panorama id="node13">
-    <input height="2500" width="2500" levelingroll="0" overlap="1" levelbiashidpi="1.000" levelbias="0.400" leveltilesize="510" leveltileurl="tiles/node13/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0">
-      <level height="2500" predecode="0" preload="0" width="2500"/>
-      <level height="1250" predecode="0" preload="0" width="1250"/>
-      <level height="625" predecode="0" preload="0" width="625"/>
-      <level height="312" predecode="1" preload="1" width="312"/>
-      <preview strip="1" color="0x808080"/>
+    <input levelingroll="0" leveltilesize="510" levelingpitch="0" overlap="1" leveltileurl="tiles/node13/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbias="0.400" height="2500" width="2500" levelbiashidpi="1.000">
+      <level predecode="0" height="2500" preload="0" width="2500"/>
+      <level predecode="0" height="1250" preload="0" width="1250"/>
+      <level predecode="0" height="625" preload="0" width="625"/>
+      <level predecode="1" height="312" preload="1" width="312"/>
+      <preview color="0x808080" strip="1"/>
     </input>
     <view pannorth="0" fovmode="2">
-      <start tilt="0" fov="100" pan="0" projection="4"/>
-      <flyin tilt="-90" fov="170" pan="0" projection="9"/>
+      <start fov="100" tilt="0" projection="4" pan="0"/>
+      <flyin fov="170" tilt="-90" projection="9" pan="0"/>
       <min tilt="-90" fovpixel="2" pan="0"/>
-      <max tilt="90" fovfisheye="360" fov="140" pan="360" scaletofit="1" fovstereographic="330"/>
+      <max scaletofit="1" fov="140" fovstereographic="330" fovfisheye="360" tilt="90" pan="360"/>
     </view>
-    <userdata description="" info="" copyright="" datetime="" title="" tags="360-01" source="" customnodeid="" longitude="" heading="0" comment="" nodeid="node13" author="" latitude=""/>
-    <hotspots height="20" smoothmovement="0" width="180" wordwrap="1">
-      <label textalpha="1" border="1" borderradius="1" height="20" enabled="1" width="180" backgroundalpha="1" borderalpha="1" wordwrap="1" background="1" textcolor="0x000000" bordercolor="0x000000" backgroundcolor="0xffffff"/>
-      <polystyle mode="0" bordercolor="0x0000ff" handcursor="1" borderalpha="1" backgroundcolor="0x0000ff" backgroundalpha="0.25098"/>
-      <hotspot description="" tilt="0.06" target="" skinid="ht_node" url="{node12}" title="" id="Point01" pan="-357.09"/>
-      <hotspot description="" tilt="0.87" target="-158.1/-0.2/100.0" skinid="ht_node" url="{node14}" title="" id="Point02" pan="-197.76"/>
+    <userdata tags="360-01" longitude="" title="" comment="" description="" info="" latitude="" source="" heading="0" nodeid="node13" author="" copyright="" datetime="" customnodeid=""/>
+    <hotspots smoothmovement="0" height="20" wordwrap="1" width="180">
+      <label backgroundalpha="1" background="1" bordercolor="0x000000" height="20" wordwrap="1" width="180" enabled="1" border="1" textalpha="1" borderradius="1" backgroundcolor="0xffffff" borderalpha="1" textcolor="0x000000"/>
+      <polystyle handcursor="1" backgroundalpha="0.25098" mode="0" backgroundcolor="0x0000ff" borderalpha="1" bordercolor="0x0000ff"/>
+      <hotspot url="{node12}" target="" title="" id="Point01" tilt="0.06" skinid="ht_node" pan="-357.09" description=""/>
+      <hotspot url="{node14}" target="-158.1/-0.2/100.0" title="" id="Point02" tilt="0.87" skinid="ht_node" pan="-197.76" description=""/>
     </hotspots>
     <media/>
-    <transition zoomfov="40" blendtime="1" zoomafterinfov="140" blendcolor="0x000000" zoomin="0" enabled="1" zoomoutpause="1" zoomout="0" delay="none" softedge="0" zoomspeed="2" type="crossdissolve" zoomafteroutfov="40"/>
-    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0" clipsrandom="0"/>
-    <control speedwheel="1" contextprojections="0" lockedmouse="0" simulatemass="1" hideabout="0" lockedkeyboardzoom="0" lockedwheel="0" dblclickfullscreen="0" contextfullscreen="1" invertcontrol="1" sensitivity="8" rubberband="0" lockedkeyboard="0" invertwheel="0" contextvr="1" zoomcentercursor="1"/>
+    <transition softedge="0" type="crossdissolve" zoomout="0" blendtime="1" zoomfov="40" enabled="1" blendcolor="0x000000" delay="none" zoomoutpause="1" zoomafteroutfov="40" zoomafterinfov="140" zoomspeed="2" zoomin="0"/>
+    <animation syncanimationwithvideo="0" clipsrandom="0" useinautorotation="0" animsequence="Animation01"/>
+    <control lockedkeyboardzoom="0" sensitivity="8" speedwheel="1" lockedmouse="0" simulatemass="1" contextprojections="0" dblclickfullscreen="0" invertcontrol="1" lockedkeyboard="0" contextvr="1" lockedwheel="0" invertwheel="0" hideabout="0" zoomcentercursor="1" rubberband="0" contextfullscreen="1"/>
     <vr toggleskinbutton="1"/>
   </panorama>
   <panorama id="node14">
-    <input height="2500" width="2500" levelingroll="0" overlap="1" levelbiashidpi="1.000" levelbias="0.400" leveltilesize="510" leveltileurl="tiles/node14/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0">
-      <level height="2500" predecode="0" preload="0" width="2500"/>
-      <level height="1250" predecode="0" preload="0" width="1250"/>
-      <level height="625" predecode="0" preload="0" width="625"/>
-      <level height="312" predecode="1" preload="1" width="312"/>
-      <preview strip="1" color="0x808080"/>
+    <input levelingroll="0" leveltilesize="510" levelingpitch="0" overlap="1" leveltileurl="tiles/node14/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbias="0.400" height="2500" width="2500" levelbiashidpi="1.000">
+      <level predecode="0" height="2500" preload="0" width="2500"/>
+      <level predecode="0" height="1250" preload="0" width="1250"/>
+      <level predecode="0" height="625" preload="0" width="625"/>
+      <level predecode="1" height="312" preload="1" width="312"/>
+      <preview color="0x808080" strip="1"/>
     </input>
     <view pannorth="0" fovmode="2">
-      <start tilt="0" fov="100" pan="0" projection="4"/>
-      <flyin tilt="-90" fov="170" pan="0" projection="9"/>
+      <start fov="100" tilt="0" projection="4" pan="0"/>
+      <flyin fov="170" tilt="-90" projection="9" pan="0"/>
       <min tilt="-90" fovpixel="2" pan="0"/>
-      <max tilt="90" fovfisheye="360" fov="140" pan="360" scaletofit="1" fovstereographic="330"/>
+      <max scaletofit="1" fov="140" fovstereographic="330" fovfisheye="360" tilt="90" pan="360"/>
     </view>
-    <userdata description="" info="" copyright="" datetime="" title="" tags="360-01" source="" customnodeid="" longitude="" heading="0" comment="" nodeid="node14" author="" latitude=""/>
-    <hotspots height="20" smoothmovement="0" width="180" wordwrap="1">
-      <label textalpha="1" border="1" borderradius="1" height="20" enabled="1" width="180" backgroundalpha="1" borderalpha="1" wordwrap="1" background="1" textcolor="0x000000" bordercolor="0x000000" backgroundcolor="0xffffff"/>
-      <polystyle mode="0" bordercolor="0x0000ff" handcursor="1" borderalpha="1" backgroundcolor="0x0000ff" backgroundalpha="0.25098"/>
-      <hotspot description="" tilt="0.09" target="" skinid="ht_node" url="{node13}" title="" id="Point01" pan="-323.36"/>
-      <hotspot description="" tilt="-0.03" target="175.2/-1.8/100.0" skinid="ht_node" url="{node15}" title="" id="Point02" pan="-182.53"/>
-      <hotspot description="" tilt="0.31" target="" skinid="ht_info" url="" title="Pod parking and charging bay" id="Point03" pan="-209.2"/>
-      <hotspot description="Pedestrian crossing to cross Podway. Signal controlled Podway crossing." tilt="-22.31" target="" skinid="ht_info" url="" title="Pedestrian Crossing" id="Point04" pan="-358.54"/>
-      <hotspot description="Improved cycle lane. Signal controlled Podway crossing." tilt="-7.44" target="" skinid="ht_info" url="" title="Cycle Lane" id="Point05" pan="-359.79"/>
+    <userdata tags="360-01" longitude="" title="" comment="" description="" info="" latitude="" source="" heading="0" nodeid="node14" author="" copyright="" datetime="" customnodeid=""/>
+    <hotspots smoothmovement="0" height="20" wordwrap="1" width="180">
+      <label backgroundalpha="1" background="1" bordercolor="0x000000" height="20" wordwrap="1" width="180" enabled="1" border="1" textalpha="1" borderradius="1" backgroundcolor="0xffffff" borderalpha="1" textcolor="0x000000"/>
+      <polystyle handcursor="1" backgroundalpha="0.25098" mode="0" backgroundcolor="0x0000ff" borderalpha="1" bordercolor="0x0000ff"/>
+      <hotspot url="{node13}" target="" title="" id="Point01" tilt="0.09" skinid="ht_node" pan="-323.36" description=""/>
+      <hotspot url="{node15}" target="175.2/-1.8/100.0" title="" id="Point02" tilt="-0.03" skinid="ht_node" pan="-182.53" description=""/>
+      <hotspot url="" target="" title="Pod parking and charging bay" id="Point03" tilt="0.31" skinid="ht_info" pan="-209.2" description=""/>
+      <hotspot url="" target="" title="Pedestrian Crossing" id="Point04" tilt="-22.31" skinid="ht_info" pan="-358.54" description="Pedestrian crossing to cross Podway. Signal controlled Podway crossing."/>
+      <hotspot url="" target="" title="Cycle Lane" id="Point05" tilt="-7.44" skinid="ht_info" pan="-359.79" description="Improved cycle lane. Signal controlled Podway crossing."/>
     </hotspots>
     <media/>
-    <transition zoomfov="40" blendtime="1" zoomafterinfov="140" blendcolor="0x000000" zoomin="0" enabled="1" zoomoutpause="1" zoomout="0" delay="none" softedge="0" zoomspeed="2" type="crossdissolve" zoomafteroutfov="40"/>
-    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0" clipsrandom="0"/>
-    <control speedwheel="1" contextprojections="0" lockedmouse="0" simulatemass="1" hideabout="0" lockedkeyboardzoom="0" lockedwheel="0" dblclickfullscreen="0" contextfullscreen="1" invertcontrol="1" sensitivity="8" rubberband="0" lockedkeyboard="0" invertwheel="0" contextvr="1" zoomcentercursor="1"/>
+    <transition softedge="0" type="crossdissolve" zoomout="0" blendtime="1" zoomfov="40" enabled="1" blendcolor="0x000000" delay="none" zoomoutpause="1" zoomafteroutfov="40" zoomafterinfov="140" zoomspeed="2" zoomin="0"/>
+    <animation syncanimationwithvideo="0" clipsrandom="0" useinautorotation="0" animsequence="Animation01"/>
+    <control lockedkeyboardzoom="0" sensitivity="8" speedwheel="1" lockedmouse="0" simulatemass="1" contextprojections="0" dblclickfullscreen="0" invertcontrol="1" lockedkeyboard="0" contextvr="1" lockedwheel="0" invertwheel="0" hideabout="0" zoomcentercursor="1" rubberband="0" contextfullscreen="1"/>
     <vr toggleskinbutton="1"/>
   </panorama>
   <panorama id="node15">
-    <input height="2500" width="2500" levelingroll="0" overlap="1" levelbiashidpi="1.000" levelbias="0.400" leveltilesize="510" leveltileurl="tiles/node15/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0">
-      <level height="2500" predecode="0" preload="0" width="2500"/>
-      <level height="1250" predecode="0" preload="0" width="1250"/>
-      <level height="625" predecode="0" preload="0" width="625"/>
-      <level height="312" predecode="1" preload="1" width="312"/>
-      <preview strip="1" color="0x808080"/>
+    <input levelingroll="0" leveltilesize="510" levelingpitch="0" overlap="1" leveltileurl="tiles/node15/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbias="0.400" height="2500" width="2500" levelbiashidpi="1.000">
+      <level predecode="0" height="2500" preload="0" width="2500"/>
+      <level predecode="0" height="1250" preload="0" width="1250"/>
+      <level predecode="0" height="625" preload="0" width="625"/>
+      <level predecode="1" height="312" preload="1" width="312"/>
+      <preview color="0x808080" strip="1"/>
     </input>
     <view pannorth="0" fovmode="2">
-      <start tilt="0" fov="100" pan="0" projection="4"/>
-      <flyin tilt="-90" fov="170" pan="0" projection="9"/>
+      <start fov="100" tilt="0" projection="4" pan="0"/>
+      <flyin fov="170" tilt="-90" projection="9" pan="0"/>
       <min tilt="-90" fovpixel="2" pan="0"/>
-      <max tilt="90" fovfisheye="360" fov="140" pan="360" scaletofit="1" fovstereographic="330"/>
+      <max scaletofit="1" fov="140" fovstereographic="330" fovfisheye="360" tilt="90" pan="360"/>
     </view>
-    <userdata description="" info="" copyright="" datetime="" title="" tags="360-01" source="" customnodeid="" longitude="" heading="0" comment="" nodeid="node15" author="" latitude=""/>
-    <hotspots height="20" smoothmovement="0" width="180" wordwrap="1">
-      <label textalpha="1" border="1" borderradius="1" height="20" enabled="1" width="180" backgroundalpha="1" borderalpha="1" wordwrap="1" background="1" textcolor="0x000000" bordercolor="0x000000" backgroundcolor="0xffffff"/>
-      <polystyle mode="0" bordercolor="0x0000ff" handcursor="1" borderalpha="1" backgroundcolor="0x0000ff" backgroundalpha="0.25098"/>
-      <hotspot description="" tilt="0" target="169.0/-3.5/100.0" skinid="ht_node" url="{node16}" title="" id="Point01" pan="-183.29"/>
-      <hotspot description="" tilt="-0.32" target="0.0/0.0/100.0" skinid="ht_node" url="{node14}" title="" id="Point02" pan="-2.05"/>
+    <userdata tags="360-01" longitude="" title="" comment="" description="" info="" latitude="" source="" heading="0" nodeid="node15" author="" copyright="" datetime="" customnodeid=""/>
+    <hotspots smoothmovement="0" height="20" wordwrap="1" width="180">
+      <label backgroundalpha="1" background="1" bordercolor="0x000000" height="20" wordwrap="1" width="180" enabled="1" border="1" textalpha="1" borderradius="1" backgroundcolor="0xffffff" borderalpha="1" textcolor="0x000000"/>
+      <polystyle handcursor="1" backgroundalpha="0.25098" mode="0" backgroundcolor="0x0000ff" borderalpha="1" bordercolor="0x0000ff"/>
+      <hotspot url="{node16}" target="169.0/-3.5/100.0" title="" id="Point01" tilt="0" skinid="ht_node" pan="-183.29" description=""/>
+      <hotspot url="{node14}" target="0.0/0.0/100.0" title="" id="Point02" tilt="-0.32" skinid="ht_node" pan="-2.05" description=""/>
     </hotspots>
     <media/>
-    <transition zoomfov="40" blendtime="1" zoomafterinfov="140" blendcolor="0x000000" zoomin="0" enabled="1" zoomoutpause="1" zoomout="0" delay="none" softedge="0" zoomspeed="2" type="crossdissolve" zoomafteroutfov="40"/>
-    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0" clipsrandom="0"/>
-    <control speedwheel="1" contextprojections="0" lockedmouse="0" simulatemass="1" hideabout="0" lockedkeyboardzoom="0" lockedwheel="0" dblclickfullscreen="0" contextfullscreen="1" invertcontrol="1" sensitivity="8" rubberband="0" lockedkeyboard="0" invertwheel="0" contextvr="1" zoomcentercursor="1"/>
+    <transition softedge="0" type="crossdissolve" zoomout="0" blendtime="1" zoomfov="40" enabled="1" blendcolor="0x000000" delay="none" zoomoutpause="1" zoomafteroutfov="40" zoomafterinfov="140" zoomspeed="2" zoomin="0"/>
+    <animation syncanimationwithvideo="0" clipsrandom="0" useinautorotation="0" animsequence="Animation01"/>
+    <control lockedkeyboardzoom="0" sensitivity="8" speedwheel="1" lockedmouse="0" simulatemass="1" contextprojections="0" dblclickfullscreen="0" invertcontrol="1" lockedkeyboard="0" contextvr="1" lockedwheel="0" invertwheel="0" hideabout="0" zoomcentercursor="1" rubberband="0" contextfullscreen="1"/>
     <vr toggleskinbutton="1"/>
   </panorama>
   <panorama id="node16">
-    <input height="2500" width="2500" levelingroll="0" overlap="1" levelbiashidpi="1.000" levelbias="0.400" leveltilesize="510" leveltileurl="tiles/node16/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0">
-      <level height="2500" predecode="0" preload="0" width="2500"/>
-      <level height="1250" predecode="0" preload="0" width="1250"/>
-      <level height="625" predecode="0" preload="0" width="625"/>
-      <level height="312" predecode="1" preload="1" width="312"/>
-      <preview strip="1" color="0x808080"/>
+    <input levelingroll="0" leveltilesize="510" levelingpitch="0" overlap="1" leveltileurl="tiles/node16/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbias="0.400" height="2500" width="2500" levelbiashidpi="1.000">
+      <level predecode="0" height="2500" preload="0" width="2500"/>
+      <level predecode="0" height="1250" preload="0" width="1250"/>
+      <level predecode="0" height="625" preload="0" width="625"/>
+      <level predecode="1" height="312" preload="1" width="312"/>
+      <preview color="0x808080" strip="1"/>
     </input>
     <view pannorth="0" fovmode="2">
-      <start tilt="0" fov="100" pan="0" projection="4"/>
-      <flyin tilt="-90" fov="170" pan="0" projection="9"/>
+      <start fov="100" tilt="0" projection="4" pan="0"/>
+      <flyin fov="170" tilt="-90" projection="9" pan="0"/>
       <min tilt="-90" fovpixel="2" pan="0"/>
-      <max tilt="90" fovfisheye="360" fov="140" pan="360" scaletofit="1" fovstereographic="330"/>
+      <max scaletofit="1" fov="140" fovstereographic="330" fovfisheye="360" tilt="90" pan="360"/>
     </view>
-    <userdata description="" info="" copyright="" datetime="" title="" tags="360-01" source="" customnodeid="" longitude="" heading="0" comment="" nodeid="node16" author="" latitude=""/>
-    <hotspots height="20" smoothmovement="0" width="180" wordwrap="1">
-      <label textalpha="1" border="1" borderradius="1" height="20" enabled="1" width="180" backgroundalpha="1" borderalpha="1" wordwrap="1" background="1" textcolor="0x000000" bordercolor="0x000000" backgroundcolor="0xffffff"/>
-      <polystyle mode="0" bordercolor="0x0000ff" handcursor="1" borderalpha="1" backgroundcolor="0x0000ff" backgroundalpha="0.25098"/>
-      <hotspot description="" tilt="0.25" target="" skinid="ht_node" url="{node15}" title="" id="Point01" pan="-2.61"/>
-      <hotspot description="" tilt="-0.95" target="" skinid="ht_node" url="{node17}" title="" id="Point02" pan="-184.3"/>
-      <hotspot description="Easy access to Hammersmith tube and bus stations, as well as the town centre" tilt="-0.68" target="" skinid="ht_info" url="" title="Hammersmith Terminus" id="Point03" pan="-189.45"/>
-      <hotspot description="Pavement widened" tilt="-5.11" target="" skinid="ht_info" url="" title="Improved Public Realm" id="Point04" pan="-15.52"/>
+    <userdata tags="360-01" longitude="" title="" comment="" description="" info="" latitude="" source="" heading="0" nodeid="node16" author="" copyright="" datetime="" customnodeid=""/>
+    <hotspots smoothmovement="0" height="20" wordwrap="1" width="180">
+      <label backgroundalpha="1" background="1" bordercolor="0x000000" height="20" wordwrap="1" width="180" enabled="1" border="1" textalpha="1" borderradius="1" backgroundcolor="0xffffff" borderalpha="1" textcolor="0x000000"/>
+      <polystyle handcursor="1" backgroundalpha="0.25098" mode="0" backgroundcolor="0x0000ff" borderalpha="1" bordercolor="0x0000ff"/>
+      <hotspot url="{node15}" target="" title="" id="Point01" tilt="0.25" skinid="ht_node" pan="-2.61" description=""/>
+      <hotspot url="{node17}" target="" title="" id="Point02" tilt="-0.95" skinid="ht_node" pan="-184.3" description=""/>
+      <hotspot url="" target="" title="Hammersmith Terminus" id="Point03" tilt="-0.68" skinid="ht_info" pan="-189.45" description="Easy access to Hammersmith tube and bus stations, as well as the town centre"/>
+      <hotspot url="" target="" title="Improved Public Realm" id="Point04" tilt="-5.11" skinid="ht_info" pan="-15.52" description="Pavement widened"/>
     </hotspots>
     <media/>
-    <transition zoomfov="40" blendtime="1" zoomafterinfov="140" blendcolor="0x000000" zoomin="0" enabled="1" zoomoutpause="1" zoomout="0" delay="none" softedge="0" zoomspeed="2" type="crossdissolve" zoomafteroutfov="40"/>
-    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0" clipsrandom="0"/>
-    <control speedwheel="1" contextprojections="0" lockedmouse="0" simulatemass="1" hideabout="0" lockedkeyboardzoom="0" lockedwheel="0" dblclickfullscreen="0" contextfullscreen="1" invertcontrol="1" sensitivity="8" rubberband="0" lockedkeyboard="0" invertwheel="0" contextvr="1" zoomcentercursor="1"/>
+    <transition softedge="0" type="crossdissolve" zoomout="0" blendtime="1" zoomfov="40" enabled="1" blendcolor="0x000000" delay="none" zoomoutpause="1" zoomafteroutfov="40" zoomafterinfov="140" zoomspeed="2" zoomin="0"/>
+    <animation syncanimationwithvideo="0" clipsrandom="0" useinautorotation="0" animsequence="Animation01"/>
+    <control lockedkeyboardzoom="0" sensitivity="8" speedwheel="1" lockedmouse="0" simulatemass="1" contextprojections="0" dblclickfullscreen="0" invertcontrol="1" lockedkeyboard="0" contextvr="1" lockedwheel="0" invertwheel="0" hideabout="0" zoomcentercursor="1" rubberband="0" contextfullscreen="1"/>
     <vr toggleskinbutton="1"/>
   </panorama>
   <panorama id="node17">
-    <input height="2500" width="2500" levelingroll="0" overlap="1" levelbiashidpi="1.000" levelbias="0.400" leveltilesize="510" leveltileurl="tiles/node17/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0">
-      <level height="2500" predecode="0" preload="0" width="2500"/>
-      <level height="1250" predecode="0" preload="0" width="1250"/>
-      <level height="625" predecode="0" preload="0" width="625"/>
-      <level height="312" predecode="1" preload="1" width="312"/>
-      <preview strip="1" color="0x808080"/>
+    <input levelingroll="0" leveltilesize="510" levelingpitch="0" overlap="1" leveltileurl="tiles/node17/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbias="0.400" height="2500" width="2500" levelbiashidpi="1.000">
+      <level predecode="0" height="2500" preload="0" width="2500"/>
+      <level predecode="0" height="1250" preload="0" width="1250"/>
+      <level predecode="0" height="625" preload="0" width="625"/>
+      <level predecode="1" height="312" preload="1" width="312"/>
+      <preview color="0x808080" strip="1"/>
     </input>
     <view pannorth="0" fovmode="2">
-      <start tilt="-1.34" fov="100" pan="160.18" projection="4"/>
-      <flyin tilt="-90" fov="170" pan="0" projection="9"/>
+      <start fov="100" tilt="-1.34" projection="4" pan="160.18"/>
+      <flyin fov="170" tilt="-90" projection="9" pan="0"/>
       <min tilt="-90" fovpixel="2" pan="0"/>
-      <max tilt="90" fovfisheye="360" fov="140" pan="360" scaletofit="1" fovstereographic="330"/>
+      <max scaletofit="1" fov="140" fovstereographic="330" fovfisheye="360" tilt="90" pan="360"/>
     </view>
-    <userdata description="" info="" copyright="" datetime="" title="" tags="360-01" source="" customnodeid="" longitude="" heading="0" comment="" nodeid="node17" author="" latitude=""/>
-    <hotspots height="20" smoothmovement="0" width="180" wordwrap="1">
-      <label textalpha="1" border="1" borderradius="1" height="20" enabled="1" width="180" backgroundalpha="1" borderalpha="1" wordwrap="1" background="1" textcolor="0x000000" bordercolor="0x000000" backgroundcolor="0xffffff"/>
-      <polystyle mode="0" bordercolor="0x0000ff" handcursor="1" borderalpha="1" backgroundcolor="0x0000ff" backgroundalpha="0.25098"/>
-      <hotspot description="" tilt="-0.04" target="" skinid="ht_node" url="{node16}" title="" id="Point01" pan="-2.58"/>
-      <hotspot description="Additional cycle parking" tilt="-9.69" target="" skinid="ht_info" url="" title="Cycle Parking" id="Point02" pan="-169.98"/>
-      <hotspot description="Additional Scooter Hire parking provided" tilt="-11.27" target="" skinid="ht_info" url="" title="Scooter Hire Parking" id="Point03" pan="-256.63"/>
-      <hotspot description="Existing Electric vehicle charging points moved" tilt="-41.89" target="" skinid="ht_info" url="" title="Electric Vehicle Charging Point" id="Point04" pan="-332.82"/>
-      <hotspot description="All pod stops will have level boarding or manual ramps" tilt="-7.53" target="" skinid="ht_info" url="" title="Level Boarding" id="Point05" pan="-331.41"/>
-      <hotspot description="Bus station and Shopping centre" tilt="4.08" target="" skinid="ht_info" url="" title="Hammersmith Underground Station" id="Point06" pan="-165.46"/>
-      <hotspot description="Additional benches provided for both the general public and Pod passengers" tilt="-6.68" target="" skinid="ht_info" url="" title="Improved Public Realm" id="Point07" pan="-31.01"/>
+    <userdata tags="360-01" longitude="" title="" comment="" description="" info="" latitude="" source="" heading="0" nodeid="node17" author="" copyright="" datetime="" customnodeid=""/>
+    <hotspots smoothmovement="0" height="20" wordwrap="1" width="180">
+      <label backgroundalpha="1" background="1" bordercolor="0x000000" height="20" wordwrap="1" width="180" enabled="1" border="1" textalpha="1" borderradius="1" backgroundcolor="0xffffff" borderalpha="1" textcolor="0x000000"/>
+      <polystyle handcursor="1" backgroundalpha="0.25098" mode="0" backgroundcolor="0x0000ff" borderalpha="1" bordercolor="0x0000ff"/>
+      <hotspot url="{node16}" target="" title="" id="Point01" tilt="-0.04" skinid="ht_node" pan="-2.58" description=""/>
+      <hotspot url="" target="" title="Cycle Parking" id="Point02" tilt="-9.69" skinid="ht_info" pan="-169.98" description="Additional cycle parking"/>
+      <hotspot url="" target="" title="Scooter Hire Parking" id="Point03" tilt="-11.27" skinid="ht_info" pan="-256.63" description="Additional Scooter Hire parking provided"/>
+      <hotspot url="" target="" title="Electric Vehicle Charging Point" id="Point04" tilt="-41.89" skinid="ht_info" pan="-332.82" description="Existing Electric vehicle charging points moved"/>
+      <hotspot url="" target="" title="Level Boarding" id="Point05" tilt="-7.53" skinid="ht_info" pan="-331.41" description="All pod stops will have level boarding or manual ramps"/>
+      <hotspot url="" target="" title="Hammersmith Underground Station" id="Point06" tilt="4.08" skinid="ht_info" pan="-165.46" description="Bus station and Shopping centre"/>
+      <hotspot url="" target="" title="Improved Public Realm" id="Point07" tilt="-6.68" skinid="ht_info" pan="-31.01" description="Additional benches provided for both the general public and Pod passengers"/>
     </hotspots>
     <media/>
-    <transition zoomfov="40" blendtime="1" zoomafterinfov="140" blendcolor="0x000000" zoomin="0" enabled="1" zoomoutpause="1" zoomout="0" delay="none" softedge="0" zoomspeed="2" type="crossdissolve" zoomafteroutfov="40"/>
-    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0" clipsrandom="0"/>
-    <control speedwheel="1" contextprojections="0" lockedmouse="0" simulatemass="1" hideabout="0" lockedkeyboardzoom="0" lockedwheel="0" dblclickfullscreen="0" contextfullscreen="1" invertcontrol="1" sensitivity="8" rubberband="0" lockedkeyboard="0" invertwheel="0" contextvr="1" zoomcentercursor="1"/>
+    <transition softedge="0" type="crossdissolve" zoomout="0" blendtime="1" zoomfov="40" enabled="1" blendcolor="0x000000" delay="none" zoomoutpause="1" zoomafteroutfov="40" zoomafterinfov="140" zoomspeed="2" zoomin="0"/>
+    <animation syncanimationwithvideo="0" clipsrandom="0" useinautorotation="0" animsequence="Animation01"/>
+    <control lockedkeyboardzoom="0" sensitivity="8" speedwheel="1" lockedmouse="0" simulatemass="1" contextprojections="0" dblclickfullscreen="0" invertcontrol="1" lockedkeyboard="0" contextvr="1" lockedwheel="0" invertwheel="0" hideabout="0" zoomcentercursor="1" rubberband="0" contextfullscreen="1"/>
     <vr toggleskinbutton="1"/>
   </panorama>
   <panorama id="node18">
-    <input height="2500" width="2500" levelingroll="0" overlap="1" levelbiashidpi="1.000" levelbias="0.400" leveltilesize="510" leveltileurl="tiles/node18/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0">
-      <level height="2500" predecode="0" preload="0" width="2500"/>
-      <level height="1250" predecode="0" preload="0" width="1250"/>
-      <level height="625" predecode="0" preload="0" width="625"/>
-      <level height="312" predecode="1" preload="1" width="312"/>
-      <preview strip="1" color="0x808080"/>
+    <input levelingroll="0" leveltilesize="510" levelingpitch="0" overlap="1" leveltileurl="tiles/node18/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbias="0.400" height="2500" width="2500" levelbiashidpi="1.000">
+      <level predecode="0" height="2500" preload="0" width="2500"/>
+      <level predecode="0" height="1250" preload="0" width="1250"/>
+      <level predecode="0" height="625" preload="0" width="625"/>
+      <level predecode="1" height="312" preload="1" width="312"/>
+      <preview color="0x808080" strip="1"/>
     </input>
     <view pannorth="0" fovmode="2">
-      <start tilt="0" fov="100" pan="0" projection="4"/>
-      <flyin tilt="-90" fov="170" pan="0" projection="9"/>
+      <start fov="100" tilt="0" projection="4" pan="0"/>
+      <flyin fov="170" tilt="-90" projection="9" pan="0"/>
       <min tilt="-90" fovpixel="2" pan="0"/>
-      <max tilt="90" fovfisheye="360" fov="140" pan="360" scaletofit="1" fovstereographic="330"/>
+      <max scaletofit="1" fov="140" fovstereographic="330" fovfisheye="360" tilt="90" pan="360"/>
     </view>
-    <userdata description="" info="" copyright="" datetime="" title="" tags="360-01" source="" customnodeid="" longitude="" heading="0" comment="" nodeid="node18" author="" latitude=""/>
-    <hotspots height="20" smoothmovement="0" width="180" wordwrap="1">
-      <label textalpha="1" border="1" borderradius="1" height="20" enabled="1" width="180" backgroundalpha="1" borderalpha="1" wordwrap="1" background="1" textcolor="0x000000" bordercolor="0x000000" backgroundcolor="0xffffff"/>
-      <polystyle mode="0" bordercolor="0x0000ff" handcursor="1" borderalpha="1" backgroundcolor="0x0000ff" backgroundalpha="0.25098"/>
-      <hotspot description="" tilt="-16.84" target="" skinid="ht_node" url="{node2}" title="" id="Point01" pan="-238.66"/>
-      <hotspot description="" tilt="0.38" target="" skinid="ht_node" url="{node3}" title="" id="Point02" pan="-354.48"/>
-      <hotspot description="All pods will be fully accessible with either level boarding or manual ramps at all stops. Capacity of pods will be up to 10 passengers or 7 including a wheelchair user" tilt="-41.62" target="" skinid="ht_info" url="" title="Accessibility" id="Point03" pan="-288.95"/>
+    <userdata tags="360-01" longitude="" title="" comment="" description="" info="" latitude="" source="" heading="0" nodeid="node18" author="" copyright="" datetime="" customnodeid=""/>
+    <hotspots smoothmovement="0" height="20" wordwrap="1" width="180">
+      <label backgroundalpha="1" background="1" bordercolor="0x000000" height="20" wordwrap="1" width="180" enabled="1" border="1" textalpha="1" borderradius="1" backgroundcolor="0xffffff" borderalpha="1" textcolor="0x000000"/>
+      <polystyle handcursor="1" backgroundalpha="0.25098" mode="0" backgroundcolor="0x0000ff" borderalpha="1" bordercolor="0x0000ff"/>
+      <hotspot url="{node2}" target="" title="" id="Point01" tilt="-16.84" skinid="ht_node" pan="-238.66" description=""/>
+      <hotspot url="{node3}" target="" title="" id="Point02" tilt="0.38" skinid="ht_node" pan="-354.48" description=""/>
+      <hotspot url="" target="" title="Accessibility" id="Point03" tilt="-41.62" skinid="ht_info" pan="-288.95" description="All pods will be fully accessible with either level boarding or manual ramps at all stops. Capacity of pods will be up to 10 passengers or 7 including a wheelchair user"/>
     </hotspots>
     <media/>
-    <transition zoomfov="40" blendtime="1" zoomafterinfov="140" blendcolor="0x000000" zoomin="0" enabled="1" zoomoutpause="1" zoomout="0" delay="none" softedge="0" zoomspeed="2" type="crossdissolve" zoomafteroutfov="40"/>
-    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0" clipsrandom="0"/>
-    <control speedwheel="1" contextprojections="0" lockedmouse="0" simulatemass="1" hideabout="0" lockedkeyboardzoom="0" lockedwheel="0" dblclickfullscreen="0" contextfullscreen="1" invertcontrol="1" sensitivity="8" rubberband="0" lockedkeyboard="0" invertwheel="0" contextvr="1" zoomcentercursor="1"/>
+    <transition softedge="0" type="crossdissolve" zoomout="0" blendtime="1" zoomfov="40" enabled="1" blendcolor="0x000000" delay="none" zoomoutpause="1" zoomafteroutfov="40" zoomafterinfov="140" zoomspeed="2" zoomin="0"/>
+    <animation syncanimationwithvideo="0" clipsrandom="0" useinautorotation="0" animsequence="Animation01"/>
+    <control lockedkeyboardzoom="0" sensitivity="8" speedwheel="1" lockedmouse="0" simulatemass="1" contextprojections="0" dblclickfullscreen="0" invertcontrol="1" lockedkeyboard="0" contextvr="1" lockedwheel="0" invertwheel="0" hideabout="0" zoomcentercursor="1" rubberband="0" contextfullscreen="1"/>
     <vr toggleskinbutton="1"/>
   </panorama>
   <masternode>
-    <userdata description="" copyright="" comment="" author="" title="" tags=""/>
+    <userdata tags="" title="" comment="" description="" author="" copyright=""/>
     <animationsequences>
       <sequence title="Animation01"/>
     </animationsequences>
